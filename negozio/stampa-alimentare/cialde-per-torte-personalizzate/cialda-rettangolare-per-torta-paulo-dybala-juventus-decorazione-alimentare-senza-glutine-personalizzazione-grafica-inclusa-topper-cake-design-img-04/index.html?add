@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+	<meta charset="UTF-8">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<title>Carrello - TortaPrint</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v13.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://tortaprint.com/carrello/" />
+<meta property="og:locale" content="it_IT" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Carrello - TortaPrint" />
+<meta property="og:url" content="https://tortaprint.com/carrello/" />
+<meta property="og:site_name" content="TortaPrint" />
+<meta property="article:publisher" content="https://www.facebook.com/ilbellodellefeste/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Carrello - TortaPrint" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://tortaprint.com/#organization","name":"Il Bello delle Feste di Federica Cortese","url":"https://tortaprint.com/","sameAs":["https://www.facebook.com/ilbellodellefeste/"],"logo":{"@type":"ImageObject","@id":"https://tortaprint.com/#logo","inLanguage":"it-IT","url":"https://tortaprint.com/wp-content/uploads/2019/03/TortaPrint_icon_512px.jpg","width":512,"height":512,"caption":"Il Bello delle Feste di Federica Cortese"},"image":{"@id":"https://tortaprint.com/#logo"}},{"@type":"WebSite","@id":"https://tortaprint.com/#website","url":"https://tortaprint.com/","name":"TortaPrint","inLanguage":"it-IT","description":"Cialde per torte personalizzate","publisher":{"@id":"https://tortaprint.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://tortaprint.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://tortaprint.com/carrello/#webpage","url":"https://tortaprint.com/carrello/","name":"Carrello - TortaPrint","isPartOf":{"@id":"https://tortaprint.com/#website"},"inLanguage":"it-IT","datePublished":"2018-11-13T19:34:08+00:00","dateModified":"2019-05-15T10:36:58+00:00"}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="TortaPrint &raquo; Feed" href="https://tortaprint.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="TortaPrint &raquo; Feed dei commenti" href="https://tortaprint.com/comments/feed/" />
+<!-- This site uses the Google Analytics by ExactMetrics plugin v6.0.2 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var em_version         = '6.0.2';
+	var em_track_user      = true;
+	var em_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-49057741-19';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+
+	if ( 'undefined' === typeof gaOptout ) {
+		function gaOptout() {
+			__gaTrackerOptout();
+		}
+	}
+	
+	if ( em_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+window.ga = __gaTracker;		__gaTracker('create', 'UA-49057741-19', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('send','pageview');
+		__gaTracker( function() { window.ga = __gaTracker; } );
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + em_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+			window.ga = __gaTracker;		})();
+		}
+</script>
+<!-- / Google Analytics by ExactMetrics -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/tortaprint.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='polestar-child-css'  href='https://tortaprint.com/wp-content/themes/polestar-child/style.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://tortaprint.com/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-css'  href='https://tortaprint.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=2.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-notice-front-css'  href='https://tortaprint.com/wp-content/plugins/cookie-notice/css/front.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='select2-css'  href='https://tortaprint.com/wp-content/plugins/woocommerce/assets/css/select2.css?ver=3.8.1' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='polestar-style-css'  href='https://tortaprint.com/wp-content/themes/polestar/style.min.css?ver=1.3.10' type='text/css' media='all' />
+<link rel='stylesheet' id='polestar-icons-css'  href='https://tortaprint.com/wp-content/themes/polestar/css/polestar-icons.min.css?ver=1.3.10' type='text/css' media='all' />
+<link rel='stylesheet' id='polestar-fonts-css'  href='//fonts.googleapis.com/css?family=Montserrat%3Aregular%2Citalic%2C600%2C700%7COpen+Sans%3Aregular%2Citalic%2C600%2C700%26subset%3Dlatin%2C' type='text/css' media='screen' />
+<link rel='stylesheet' id='polestar-woocommerce-style-css'  href='https://tortaprint.com/wp-content/themes/polestar/woocommerce.min.css?ver=1.3.10' type='text/css' media='all' />
+<link rel='stylesheet' id='popup-maker-site-css'  href='//tortaprint.com/wp-content/uploads/pum/pum-site-styles.css?generated=1583918339&#038;ver=1.9.1' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"zip,mp3,mpeg,pdf,docx,pptx,xlsx,rar","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/tortaprint.com","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend.min.js?ver=6.0.2'></script>
+<script type='text/javascript' src='https://tortaprint.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://tortaprint.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://tortaprint.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://tortaprint.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://tortaprint.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.3.2" />
+<meta name="generator" content="WooCommerce 3.8.1" />
+<link rel='shortlink' href='https://tortaprint.com/?p=56' />
+<link rel="alternate" type="application/json+oembed" href="https://tortaprint.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftortaprint.com%2Fcarrello%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://tortaprint.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftortaprint.com%2Fcarrello%2F&#038;format=xml" />
+<style>
+        #wechat-qr-code{right: {104}px; left:auto;}
+        .chaty-widget-is a{display: block; margin:0; padding:0; }
+    .chaty-widget-is svg{margin:0; padding:0;}
+    .chaty-main-widget { display: none; }
+    .chaty-in-desktop .chaty-main-widget.is-in-desktop { display: block; }
+    .chaty-in-mobile .chaty-main-widget.is-in-mobile { display: block; }
+    .chaty-widget.hide-widget { display: none !important; }
+    .chaty-widget, .chaty-widget .get, .chaty-widget .get a { width: 62px }
+    .facustom-icon { width: 54px; line-height: 54px; height: 54px; font-size: 27px; }
+            /*.chaty-widget-i-title.hide-it { display: none !important; }*/
+    body div.chaty-widget.hide-widget { display: none !important; }
+</style>
+        <script type="text/javascript">
+            (function () {
+                window.lsow_fs = {can_use_premium_code: false};
+            })();
+        </script>
+        	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name='robots' content='noindex,follow' />
+	       
+	       <script type="text/javascript">
+	       
+    	    var wccpf_opt = {
+    	    	editable : "no",
+    	        cloning : "yes",
+    	        location : "woocommerce_before_add_to_cart_button",
+    	        validation : "no",
+    	        validation_type : "submit",
+    	        ajax_pricing_rules_title : "hide",
+    	        ajax_pricing_rules_title_header : "Dettaglio costi",
+    		    ajax_pricing_rules_price_container_is : "default",
+    	        ajax_price_replace_container : "",
+    	        price_details : "",
+    	        color_picker_functions    : [],
+    	        is_ajax_add_to_cart : "yes",
+    	        is_page : "single"
+    	    };
+    	    </script>
+	
+	
+				
+    						
+		
+<style type="text/css" id="polestar-custom-css">
+body,button,input,select,textarea,blockquote cite,a:hover,a:focus,a:active,.main-navigation li:hover > a,.main-navigation li.focus > a,#mobile-navigation ul li a:hover,#mobile-navigation ul li .dropdown-toggle:hover,.pagination .page-numbers,.pagination .page-numbers:visited,.site-content .post-navigation a,.entry-title a:hover,.page-links .page-links-title:hover,.page-links a span,.tags-links a,#page .widget_tag_cloud a,.author-box .author-description span a,.comment-list .comment,.comment-list .pingback,.comment-list .comment .author a:hover,.comment-list .pingback .author a:hover,#commentform .comment-notes a,#commentform .logged-in-as a,#commentform .comment-subscription-form label,.widget-area .widget a,.site-footer .widget a,.site-header .shopping-cart-dropdown .widget li a{color:#444444;}.site-header .site-branding .site-description{color:#444444;}abbr,acronym{border-color:#444444;}.main-navigation .search-icon svg:hover path,.site-header #header-search #close-search svg:hover path{fill:#444444;}.site-header .shopping-cart-link:hover .shopping-cart-text,.woocommerce .woocommerce-pagination ul li a,.woocommerce .woocommerce-pagination ul li > span,.woocommerce .products .product h3:hover,.woocommerce .products .product .price,.woocommerce .price,.woocommerce .product .summary .variations .reset_variations,.woocommerce .product .summary .product_meta a,.woocommerce .product .woocommerce-Reviews .meta a:hover,.woocommerce-cart table.cart .cart_item a,.woocommerce-account .woocommerce-MyAccount-navigation ul li a{color:#444444;}.site-header .shopping-cart-link:hover svg,.woocommerce .woocommerce-ordering .ordering-selector-wrapper svg path{fill:#444444;}.site-content .post-navigation a .sub-title,.breadcrumbs,.breadcrumbs a,.entry-meta > span,.entry-meta > span:after,.yarpp-related ol li .related-post-date,.related-posts-section ol li .related-post-date,.comment-list .comment .date,.comment-list .pingback .date,.comment-reply-title #cancel-comment-reply-link{color:#666666;}.search-form button[type="submit"] svg path{fill:#666666;}.woocommerce .woocommerce-breadcrumb,.woocommerce .woocommerce-breadcrumb a,.woocommerce .woocommerce-result-count,.woocommerce .woocommerce-ordering .ordering-selector-wrapper .ordering-dropdown li,.woocommerce .product .summary .woocommerce-review-link,.woocommerce .product .woocommerce-Reviews .comment-date,.woocommerce-cart table.cart .cart_item a:hover{color:#666666;}.widget_product_search .woocommerce-product-search button[type="submit"] svg path{fill:#666666;}
+@media (max-width:780px){body:not(.page-layout-stripped) #masthead.mobile-menu .main-navigation > div:not(.mega-menu-wrap),#masthead.mobile-menu .main-navigation .shopping-cart,#masthead.mobile-menu .main-navigation .search-icon{display:none;}#masthead.mobile-menu #mobile-menu-button{display:inline-block;}}
+@media (min-width:781px){.site-header #mobile-navigation{display:none !important;}}
+</style>
+<link rel="icon" href="https://tortaprint.com/wp-content/uploads/2019/03/cropped-tortaprint_icon-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://tortaprint.com/wp-content/uploads/2019/03/cropped-tortaprint_icon-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://tortaprint.com/wp-content/uploads/2019/03/cropped-tortaprint_icon-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://tortaprint.com/wp-content/uploads/2019/03/cropped-tortaprint_icon-270x270.jpg" />
+		<style type="text/css" id="wp-custom-css">
+			.entry-thumbnail {display:none;}		</style>
+		</head>
+
+<body class="page-template-default page page-id-56 theme-polestar cookies-not-set woocommerce-cart woocommerce-page woocommerce-no-js css3-animations no-js page-layout-no-sidebar sidebar no-topbar">
+
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		
+		
+		<header id="masthead" class="site-header sticky mobile-menu"  >
+
+			<div class="polestar-container">
+
+					
+					<div class="site-header-inner">
+
+						<div class="site-branding">
+							<a href="https://tortaprint.com/" rel="home">
+			<span class="screen-reader-text">Home</span><img width="250" height="71" src="https://tortaprint.com/wp-content/uploads/2019/03/tortaprint-logo_250px.jpg" class="custom-logo" alt="cialde per torte personalizzate TortaPrint" /></a>						</div><!-- .site-branding -->
+
+						<nav id="site-navigation" class="main-navigation">
+
+							
+								
+																	<a href="#menu" id="mobile-menu-button">
+													<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+												<span class="screen-reader-text">Menu</span>
+									</a>
+															
+																	<div class="menu-main-header-container"><ul id="primary-menu" class="menu"><li id="menu-item-1794" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1794"><a href="https://tortaprint.com/negozio/">Prodotti</a></li>
+<li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a title="Cialde per torte personalizzate" href="https://tortaprint.com/cialde-per-torte-personalizzate/">Cialde per torte</a></li>
+<li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a title="Esempi di torte personalizzate" href="https://tortaprint.com/esempi-torte-personalizzate/">Esempi</a></li>
+<li id="menu-item-133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-133"><a href="https://tortaprint.com/negozio/stampa-alimentare/cialde-per-torte-personalizzate/grafica-personalizzata/">Personalizza</a></li>
+<li id="menu-item-1278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1278"><a href="https://tortaprint.com/contatti/">Contatti</a></li>
+</ul></div>								
+								
+																	<button class="search-icon">
+										<label class="screen-reader-text">Open search bar</label>
+													<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+				<path d="M15.56 15.56c-0.587 0.587-1.538 0.587-2.125 0l-2.652-2.652c-1.090 0.699-2.379 1.116-3.771 1.116-3.872 0-7.012-3.139-7.012-7.012s3.14-7.012 7.012-7.012c3.873 0 7.012 3.139 7.012 7.012 0 1.391-0.417 2.68-1.116 3.771l2.652 2.652c0.587 0.587 0.587 1.538 0 2.125zM7.012 2.003c-2.766 0-5.009 2.242-5.009 5.009s2.243 5.009 5.009 5.009c2.766 0 5.009-2.242 5.009-5.009s-2.242-5.009-5.009-5.009z"></path>
+			</svg>
+											</button>
+								
+							
+							
+						</nav><!-- #site-navigation -->
+
+													<div id="header-search">
+								<div class="polestar-container">
+									<label for='s' class='screen-reader-text'>Search for:</label>
+									<form method="get" class="search-form" action="https://tortaprint.com/">
+	<label for='s' class='screen-reader-text'>Search for:</label>
+	<input type="search" name="s" placeholder="Search" value="" />
+	<button type="submit">
+		<label class="screen-reader-text">Search</label>
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+				<path d="M15.56 15.56c-0.587 0.587-1.538 0.587-2.125 0l-2.652-2.652c-1.090 0.699-2.379 1.116-3.771 1.116-3.872 0-7.012-3.139-7.012-7.012s3.14-7.012 7.012-7.012c3.873 0 7.012 3.139 7.012 7.012 0 1.391-0.417 2.68-1.116 3.771l2.652 2.652c0.587 0.587 0.587 1.538 0 2.125zM7.012 2.003c-2.766 0-5.009 2.242-5.009 5.009s2.243 5.009 5.009 5.009c2.766 0 5.009-2.242 5.009-5.009s-2.242-5.009-5.009-5.009z"></path>
+			</svg>
+			</button>
+</form>
+									<a id="close-search">
+										<span class="screen-reader-text">Close search bar</span>
+													<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+				<path d="M18.984 6.422l-5.578 5.578 5.578 5.578-1.406 1.406-5.578-5.578-5.578 5.578-1.406-1.406 5.578-5.578-5.578-5.578 1.406-1.406 5.578 5.578 5.578-5.578z"></path>
+			</svg>
+											</a>
+								</div>
+							</div><!-- #header-search -->
+						
+					</div><!-- .site-header-inner -->
+
+						
+			</div><!-- .polestar-container -->
+		
+		</header><!-- #masthead -->
+
+		
+		<div id="content" class="site-content">
+
+			<div class="polestar-container">
+
+				
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+
+			
+<article id="post-56" class="post-56 page type-page status-publish post">
+
+	
+			<header class="entry-header">
+			<h1 class="entry-title">Carrello</h1>		</header><!-- .entry-header -->
+	
+	<div class="entry-content">
+		<div class="woocommerce"><div class="woocommerce-notices-wrapper">
+	<div class="woocommerce-message" role="alert">
+		<a href="https://tortaprint.com/negozio/stampa-alimentare/cialde-per-torte-personalizzate/cialda-rettangolare-per-torta-paulo-dybala-juventus-decorazione-alimentare-senza-glutine-personalizzazione-grafica-inclusa-topper-cake-design-img-04/" tabindex="1" class="button wc-forward">Continua con gli acquisti</a> &ldquo;Grafica personalizzata&rdquo; è stato aggiunto al tuo carrello.	</div>
+</div>
+<form class="woocommerce-cart-form" action="https://tortaprint.com/carrello/" method="post">
+	
+	<table class="shop_table shop_table_responsive cart woocommerce-cart-form__contents" cellspacing="0">
+		<thead>
+			<tr>
+				<th class="product-remove">&nbsp;</th>
+				<th class="product-thumbnail">&nbsp;</th>
+				<th class="product-name">Prodotto</th>
+				<th class="product-price">Prezzo</th>
+				<th class="product-quantity">Quantità</th>
+				<th class="product-subtotal">Subtotale</th>
+			</tr>
+		</thead>
+		<tbody>
+			
+								<tr class="woocommerce-cart-form__cart-item cart_item">
+
+						<td class="product-remove">
+							<a href="https://tortaprint.com/carrello/?remove_item=d1fe173d08e959397adf34b1d77e88d7&#038;_wpnonce=4c64f585fc" class="remove" aria-label="Rimuovi questo prodotto" data-product_id="79" data-product_sku="">&times;</a>						</td>
+
+						<td class="product-thumbnail">
+						<a href="https://tortaprint.com/negozio/stampa-alimentare/cialde-per-torte-personalizzate/grafica-personalizzata/"><img width="300" height="300" src="https://tortaprint.com/wp-content/uploads/2019/03/tortaprint_icon-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://tortaprint.com/wp-content/uploads/2019/03/tortaprint_icon-300x300.jpg 300w, https://tortaprint.com/wp-content/uploads/2019/03/tortaprint_icon-150x150.jpg 150w, https://tortaprint.com/wp-content/uploads/2019/03/tortaprint_icon.jpg 512w" sizes="(max-width: 300px) 100vw, 300px" /></a>						</td>
+
+						<td class="product-name" data-title="Prodotto">
+						<a href="https://tortaprint.com/negozio/stampa-alimentare/cialde-per-torte-personalizzate/grafica-personalizzata/">Grafica personalizzata</a>						</td>
+
+						<td class="product-price" data-title="Prezzo">
+							<span class="woocommerce-Price-amount amount">8,99<span class="woocommerce-Price-currencySymbol">&euro;</span></span>						</td>
+
+						<td class="product-quantity" data-title="Quantità">
+							<div class="quantity">
+				<label class="screen-reader-text" for="quantity_5e6aaeffb8acc">Grafica personalizzata quantità</label>
+		<input
+			type="number"
+			id="quantity_5e6aaeffb8acc"
+			class="input-text qty text"
+			step="1"
+			min="0"
+			max=""
+			name="cart[d1fe173d08e959397adf34b1d77e88d7][qty]"
+			value="50"
+			title="Qtà"
+			size="4"
+			inputmode="numeric" />
+			</div>
+							</td>
+
+						<td class="product-subtotal" data-title="Subtotale">
+							<span class="woocommerce-Price-amount amount">449,50<span class="woocommerce-Price-currencySymbol">&euro;</span></span>						</td>
+					</tr>
+					
+			
+			<tr>
+				<td colspan="6" class="actions">
+
+											<div class="coupon">
+							<label for="coupon_code">Codice promozionale:</label> <input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="Codice del Buono Sconto" /> <button type="submit" class="button" name="apply_coupon" value="Applica codice promozionale">Applica codice promozionale</button>
+													</div>
+					
+					<button type="submit" class="button" name="update_cart" value="Aggiorna carrello">Aggiorna carrello</button>
+
+					
+					<input type="hidden" id="woocommerce-cart-nonce" name="woocommerce-cart-nonce" value="4c64f585fc" /><input type="hidden" name="_wp_http_referer" value="/carrello/" />				</td>
+			</tr>
+
+					</tbody>
+	</table>
+	</form>
+
+
+<div class="cart-collaterals">
+	<div class="cart_totals ">
+
+	
+	<h2>Totale carrello</h2>
+
+	<table cellspacing="0" class="shop_table shop_table_responsive">
+
+		<tr class="cart-subtotal">
+			<th>Subtotale</th>
+			<td data-title="Subtotale"><span class="woocommerce-Price-amount amount">449,50<span class="woocommerce-Price-currencySymbol">&euro;</span></span></td>
+		</tr>
+
+		
+		
+		
+		
+		
+		<tr class="order-total">
+			<th>Totale</th>
+			<td data-title="Totale"><strong><span class="woocommerce-Price-amount amount">449,50<span class="woocommerce-Price-currencySymbol">&euro;</span></span></strong> <small class="includes_tax">(inclusi <span class="woocommerce-Price-amount amount">81,06<span class="woocommerce-Price-currencySymbol">&euro;</span></span> IVA stimati per Russia)</small></td>
+		</tr>
+
+		
+	</table>
+
+	<div class="wc-proceed-to-checkout">
+		
+<a href="https://tortaprint.com/checkout/" class="checkout-button button alt wc-forward">
+	Concludi ordine</a>
+	</div>
+
+	
+</div>
+</div>
+
+</div>
+	</div><!-- .entry-content -->
+
+</article><!-- #post-## -->
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+		</div><!-- .polestar-container -->
+	</div><!-- #content -->
+
+	
+	<footer id="colophon" class="site-footer footer-active-sidebar">
+
+		
+					<div class="polestar-container">
+										<div class="widgets widgets-1" aria-label="Footer Widgets">
+							<aside id="siteorigin-panels-builder-2" class="widget widget_siteorigin-panels-builder"><div id="pl-w5cdc2c9aae1a7"  class="panel-layout" ><div id="pg-w5cdc2c9aae1a7-0"  class="panel-grid panel-has-style" ><div class="siteorigin-panels-stretch panel-row-style panel-row-style-for-w5cdc2c9aae1a7-0" data-stretch-type="full-stretched" ><div id="pgc-w5cdc2c9aae1a7-0-0"  class="panel-grid-cell" ><div id="panel-w5cdc2c9aae1a7-0-0-0" class="so-panel widget widget_sow-features panel-first-child panel-last-child" data-index="0" ><div class="panel-widget-style panel-widget-style-for-w5cdc2c9aae1a7-0-0-0" ><div class="so-widget-sow-features so-widget-sow-features-default-22cef5d59f25">
+<div class="sow-features-list sow-features-responsive">
+
+			
+			<div class="sow-features-feature sow-icon-container-position-top sow-features-feature-last-row" style="width: 25%">
+
+								<div
+					class="sow-icon-container sow-container-round"
+                    style="color: #ff3366; "
+					>
+					<span class="sow-icon-fontawesome sow-fas" data-sow-icon="&#xf53a;" style="font-size: 50px; color: #FFFFFF"></span>				</div>
+				
+				<div class="textwidget">
+											<h5>
+							<a href="https://tortaprint.com/termini-e-condizioni/" >							Semplicità di pagamento							</a>						</h5>
+					
+											<p style="text-align: center">Paga con PayPal o carta di credito.</p>
+					
+									</div>
+			</div>
+
+		
+			<div class="sow-features-feature sow-icon-container-position-top sow-features-feature-last-row" style="width: 25%">
+
+								<div
+					class="sow-icon-container sow-container-round"
+                    style="color: #ff3366; "
+					>
+					<span class="sow-icon-fontawesome sow-fas" data-sow-icon="&#xf48b;" style="font-size: 50px; color: #FFFFFF"></span>				</div>
+				
+				<div class="textwidget">
+											<h5>
+							<a href="https://tortaprint.com/termini-e-condizioni/" >							Spedizione gratuita							</a>						</h5>
+					
+											<p style="text-align: center">Nessun costo di spedizione in tutta Italia.</p>
+					
+									</div>
+			</div>
+
+		
+			<div class="sow-features-feature sow-icon-container-position-top sow-features-feature-last-row" style="width: 25%">
+
+								<div
+					class="sow-icon-container sow-container-round"
+                    style="color: #ff3366; "
+					>
+					<span class="sow-icon-fontawesome sow-fas" data-sow-icon="&#xf02a;" style="font-size: 50px; color: #FFFFFF"></span>				</div>
+				
+				<div class="textwidget">
+											<h5>
+							<a href="https://tortaprint.com/termini-e-condizioni/" >							Codice per la consegna							</a>						</h5>
+					
+											<p style="text-align: center">Codice di tracking per monitorare l'esito di consegna.</p>
+					
+									</div>
+			</div>
+
+		
+			<div class="sow-features-feature sow-icon-container-position-top sow-features-feature-last-row" style="width: 25%">
+
+								<div
+					class="sow-icon-container sow-container-round"
+                    style="color: #ff3366; "
+					>
+					<span class="sow-icon-fontawesome sow-fas" data-sow-icon="&#xf164;" style="font-size: 50px; color: #FFFFFF"></span>				</div>
+				
+				<div class="textwidget">
+											<h5>
+							<a href="https://tortaprint.com/termini-e-condizioni/" >							Soddisfatti o rimborsati							</a>						</h5>
+					
+											<p style="text-align: center">Se qualcosa va storto ti rimborsiamo.</p>
+					
+									</div>
+			</div>
+
+			
+</div>
+</div></div></div></div></div></div><div id="pg-w5cdc2c9aae1a7-1"  class="panel-grid panel-has-style" ><div class="siteorigin-panels-stretch panel-row-style panel-row-style-for-w5cdc2c9aae1a7-1" data-stretch-type="full" ><div id="pgc-w5cdc2c9aae1a7-1-0"  class="panel-grid-cell" ><div id="panel-w5cdc2c9aae1a7-1-0-0" class="so-panel widget widget_nav_menu panel-first-child panel-last-child" data-index="1" ><div class="menu-footer-1-container"><ul id="menu-footer-1" class="menu"><li id="menu-item-189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-189"><a title="Cialde per torte personalizzate" href="https://tortaprint.com/cialde-per-torte-personalizzate/">Cialde per torte</a></li>
+<li id="menu-item-187" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-187"><a title="Esempi di torte personalizzate con stampa alimentare" href="https://tortaprint.com/esempi-torte-personalizzate/">Esempi</a></li>
+<li id="menu-item-186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186"><a href="https://tortaprint.com/negozio/">Acquista</a></li>
+</ul></div></div></div><div id="pgc-w5cdc2c9aae1a7-1-1"  class="panel-grid-cell" ><div id="panel-w5cdc2c9aae1a7-1-1-0" class="so-panel widget widget_nav_menu panel-first-child panel-last-child" data-index="2" ><div class="menu-footer-2-container"><ul id="menu-footer-2" class="menu"><li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="https://tortaprint.com/negozio/">Shop</a></li>
+<li id="menu-item-136" class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-56 menu-item-136"><a href="https://tortaprint.com/carrello/" aria-current="page">Carrello</a></li>
+<li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135"><a href="https://tortaprint.com/checkout/">Cassa</a></li>
+<li id="menu-item-134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134"><a href="https://tortaprint.com/mio-account/">Il mio account</a></li>
+</ul></div></div></div><div id="pgc-w5cdc2c9aae1a7-1-2"  class="panel-grid-cell" ><div id="panel-w5cdc2c9aae1a7-1-2-0" class="so-panel widget widget_nav_menu panel-first-child panel-last-child" data-index="3" ><div class="menu-footer-3-container"><ul id="menu-footer-3" class="menu"><li id="menu-item-166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-166"><a href="https://tortaprint.com/chi-siamo/">Chi siamo</a></li>
+<li id="menu-item-183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-183"><a href="https://tortaprint.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-184" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-184"><a href="https://tortaprint.com/termini-e-condizioni/">Termini e condizioni</a></li>
+<li id="menu-item-165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-165"><a href="https://tortaprint.com/contatti/">Contatti</a></li>
+</ul></div></div></div></div></div></div></aside>						</div>
+									</div><!-- .polestar-container -->
+			
+
+		<div class="bottom-bar">
+			<div class="polestar-container">
+				<div class="site-info">
+					<span>Copyright &copy; 2020 TortaPrint</span><span>Theme by <a href="https://purothemes.com/">Puro</a></span>				</div><!-- .site-info -->
+							</div><!-- .polestar-container -->
+		</div><!-- .bottom-bar -->
+
+		
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+	<div id="scroll-to-top">
+		<span class="screen-reader-text">Scroll to top</span>
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+				<path d="M26.297 20.797l-2.594 2.578c-0.391 0.391-1.016 0.391-1.406 0l-8.297-8.297-8.297 8.297c-0.391 0.391-1.016 0.391-1.406 0l-2.594-2.578c-0.391-0.391-0.391-1.031 0-1.422l11.594-11.578c0.391-0.391 1.016-0.391 1.406 0l11.594 11.578c0.391 0.391 0.391 1.031 0 1.422z"></path>
+			</svg>
+			</div>
+
+<div id="pum-22169" class="pum pum-overlay pum-theme-22163 pum-theme-tema-predefinito popmake-overlay click_open" data-popmake="{&quot;id&quot;:22169,&quot;slug&quot;:&quot;shop-chiuso&quot;,&quot;theme_id&quot;:22163,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center top&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_22169">
+
+	<div id="popmake-22169" class="pum-container popmake theme-22163 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+				            <div id="pum_popup_title_22169" class="pum-title popmake-title">
+				Shop temporaneamente chiuso			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<p>&nbsp;</p>
+<p style="text-align: center;">Lo Shop è temporaneamente chiuso e gli ordini NON saranno presi in considerazione!<br />
+Tra pochi giorni torneremo a soddisfare le vostre richieste.</p>
+<p style="text-align: center;">A presto!</p>
+<p style="text-align: center;"><em>TortaPrint Staff</em></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Chiudi">
+			OK. Ho capito!            </button>
+		
+	</div>
+
+</div>
+	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	                <style type="text/css" media="all"
+                       id="siteorigin-panels-layouts-footer">/* Layout w5cdc2c9aae1a7 */ #pgc-w5cdc2c9aae1a7-0-0 { width:100%;width:calc(100% - ( 0 * 30px ) ) } #pl-w5cdc2c9aae1a7 #panel-w5cdc2c9aae1a7-0-0-0 , #pl-w5cdc2c9aae1a7 #panel-w5cdc2c9aae1a7-1-0-0 , #pl-w5cdc2c9aae1a7 #panel-w5cdc2c9aae1a7-1-1-0 , #pl-w5cdc2c9aae1a7 #panel-w5cdc2c9aae1a7-1-2-0 {  } #pg-w5cdc2c9aae1a7-0 , #pl-w5cdc2c9aae1a7 .so-panel:last-child { margin-bottom:0px } #pgc-w5cdc2c9aae1a7-1-0 , #pgc-w5cdc2c9aae1a7-1-1 , #pgc-w5cdc2c9aae1a7-1-2 { width:33.3333%;width:calc(33.3333% - ( 0.66666666666667 * 30px ) ) } #pl-w5cdc2c9aae1a7 .so-panel { margin-bottom:30px } #pg-w5cdc2c9aae1a7-0.panel-no-style, #pg-w5cdc2c9aae1a7-0.panel-has-style > .panel-row-style , #pg-w5cdc2c9aae1a7-1.panel-no-style, #pg-w5cdc2c9aae1a7-1.panel-has-style > .panel-row-style { -webkit-align-items:flex-start;align-items:flex-start } #panel-w5cdc2c9aae1a7-0-0-0> .panel-widget-style { padding:5% 5% 5% 5% } @media (max-width:780px){ #pg-w5cdc2c9aae1a7-0.panel-no-style, #pg-w5cdc2c9aae1a7-0.panel-has-style > .panel-row-style , #pg-w5cdc2c9aae1a7-1.panel-no-style, #pg-w5cdc2c9aae1a7-1.panel-has-style > .panel-row-style { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-w5cdc2c9aae1a7-0 > .panel-grid-cell , #pg-w5cdc2c9aae1a7-0 > .panel-row-style > .panel-grid-cell , #pg-w5cdc2c9aae1a7-1 > .panel-grid-cell , #pg-w5cdc2c9aae1a7-1 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pgc-w5cdc2c9aae1a7-1-0 , #pgc-w5cdc2c9aae1a7-1-1 { margin-bottom:30px } #pl-w5cdc2c9aae1a7 .panel-grid-cell { padding:0 } #pl-w5cdc2c9aae1a7 .panel-grid .panel-grid-cell-empty { display:none } #pl-w5cdc2c9aae1a7 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } </style><link rel='stylesheet' id='chaty-front-css-css'  href='https://tortaprint.com/wp-content/plugins/chaty/css/chaty-front.css?ver=2.4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='wcff-jquery-ui-style-css'  href='https://tortaprint.com/wp-content/plugins/wc-fields-factory/assets/css/jquery-ui.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wcff-timepicker-style-css'  href='https://tortaprint.com/wp-content/plugins/wc-fields-factory/assets/css/jquery-ui-timepicker-addon.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wcff-colorpicker-style-css'  href='https://tortaprint.com/wp-content/plugins/wc-fields-factory/assets/css/spectrum.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wcff-client-style-css'  href='https://tortaprint.com/wp-content/plugins/wc-fields-factory/assets/css/wcff-client.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='sow-features-default-22cef5d59f25-css'  href='https://tortaprint.com/wp-content/uploads/siteorigin-widgets/sow-features-default-22cef5d59f25.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='siteorigin-widgets-css'  href='https://tortaprint.com/wp-content/plugins/so-widgets-bundle/widgets/features/css/style.css?ver=1.16.0' type='text/css' media='all' />
+<link rel='stylesheet' id='siteorigin-widget-icon-font-fontawesome-css'  href='https://tortaprint.com/wp-content/plugins/so-widgets-bundle/icons/fontawesome/style.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='siteorigin-panels-front-css'  href='https://tortaprint.com/wp-content/plugins/siteorigin-panels/css/front-flex.min.css?ver=2.10.14' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cnArgs = {"ajaxurl":"https:\/\/tortaprint.com\/wp-admin\/admin-ajax.php","hideEffect":"fade","onScroll":"no","onScrollOffset":"100","onClick":"","cookieName":"cookie_notice_accepted","cookieTime":"2592000","cookieTimeRejected":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"","cache":"","refuse":"no","revoke_cookies":"0","revoke_cookies_opt":"automatic","secure":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/plugins/cookie-notice/js/front.min.js?ver=1.2.51'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var lsow_settings = {"mobile_width":"780","custom_css":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/plugins/livemesh-siteorigin-widgets/assets/js/lsow-frontend.min.js?ver=2.5.9'></script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Visualizza carrello","cart_url":"https:\/\/tortaprint.com\/carrello\/","is_cart":"1","cart_redirect_after_add":"yes"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.8.1'></script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_country_select_params = {"countries":"{\"AF\":[],\"AO\":{\"BGO\":\"Provincia del Bengo\",\"BLU\":\"Provincia di Benguela\",\"BIE\":\"Bi\\u00e9\",\"CAB\":\"Provincia di Cabinda\",\"CNN\":\"Provincia del Cunene\",\"HUA\":\"Provincia di Huambo\",\"HUI\":\"Humla\",\"CCU\":\"Provincia di Cuando Cubango\",\"CNO\":\"Provincia di Cuanza Nord\",\"CUS\":\"Provincia di Cuanza Sud\",\"LUA\":\"Luanda\",\"LNO\":\"Provincia di Lunda Nord\",\"LSU\":\"Provincia di Lunda Sud\",\"MAL\":\"Provincia di Malanje\",\"MOX\":\"Provincia di Moxico\",\"NAM\":\"Namibe\",\"UIG\":\"Provincia di U\\u00edge\",\"ZAI\":\"Zaire\"},\"AR\":{\"C\":\"Citt\\u00e0 Autonoma di Buenos Aires\",\"B\":\"Buenos Aires\",\"K\":\"Catamarca\",\"H\":\"Chaco\",\"U\":\"Chubut\",\"X\":\"C\u00f3rdoba\",\"W\":\"Corrientes\",\"E\":\"Entre R\u00edos\",\"P\":\"Formosa\",\"Y\":\"Jujuy\",\"L\":\"La Pampa\",\"F\":\"La Rioja\",\"M\":\"Mendoza\",\"N\":\"Misiones\",\"Q\":\"Neuqu\u00e9n\",\"R\":\"R\u00edo Negro\",\"A\":\"Salta\",\"J\":\"San Juan\",\"D\":\"San Luis\",\"Z\":\"Santa Cruz\",\"S\":\"Santa Fe\",\"G\":\"Santiago del Estero\",\"V\":\"Tierra del Fuego\",\"T\":\"Tucum\u00e1n\"},\"AT\":[],\"AU\":{\"ACT\":\"Australian Capital Territory\",\"NSW\":\"New South Wales\",\"NT\":\"Northern Territory\",\"QLD\":\"Queensland\",\"SA\":\"South Australia\",\"TAS\":\"Tasmania\",\"VIC\":\"Victoria\",\"WA\":\"Western Australia\"},\"AX\":[],\"BD\":{\"BD-05\":\"Bagerhat\",\"BD-01\":\"Bandarban\",\"BD-02\":\"Barguna\",\"BD-06\":\"Barisal\",\"BD-07\":\"Bhola\",\"BD-03\":\"Bogra\",\"BD-04\":\"Brahmanbaria\",\"BD-09\":\"Chandpur\",\"BD-10\":\"Chattogram\",\"BD-12\":\"Chuadanga\",\"BD-11\":\"Bazar di Cox\",\"BD-08\":\"Comilla\",\"BD-13\":\"Dhaka\",\"BD-14\":\"Dinajpur\",\"BD-15\":\"Faridpur\",\"BD-16\":\"Feni\",\"BD-19\":\"Gaibandha\",\"BD-18\":\"Gazipur\",\"BD-17\":\"Gopalganj\",\"BD-20\":\"Habiganj\",\"BD-21\":\"Jamalpur\",\"BD-22\":\"Jashore\",\"BD-25\":\"Jhalokati\",\"BD-23\":\"Jhenaidah\",\"BD-24\":\"Joypurhat\",\"BD-29\":\"Khagrachhari\",\"BD-27\":\"Khulna\",\"BD-26\":\"Kishoreganj\",\"BD-28\":\"Kurigram\",\"BD-30\":\"Kushtia\",\"BD-31\":\"Lakshmipur\",\"BD-32\":\"Lalmonirhat\",\"BD-36\":\"Madaripur\",\"BD-37\":\"Magura\",\"BD-33\":\"Manikganj \",\"BD-39\":\"Meherpur\",\"BD-38\":\"Moulvibazar\",\"BD-35\":\"Munshiganj\",\"BD-34\":\"Mymensingh\",\"BD-48\":\"Naogaon\",\"BD-43\":\"Narail\",\"BD-40\":\"Narayanganj\",\"BD-42\":\"Narsingdi\",\"BD-44\":\"Natore\",\"BD-45\":\"Nawabganj\",\"BD-41\":\"Netrakona\",\"BD-46\":\"Nilphamari\",\"BD-47\":\"Noakhali\",\"BD-49\":\"Pabna\",\"BD-52\":\"Panchagarh\",\"BD-51\":\"Patuakhali\",\"BD-50\":\"Pirojpur\",\"BD-53\":\"Rajbari\",\"BD-54\":\"Rajshahi\",\"BD-56\":\"Rangamati\",\"BD-55\":\"Rangpur\",\"BD-58\":\"Satkhira\",\"BD-62\":\"Shariatpur\",\"BD-57\":\"Sherpur\",\"BD-59\":\"Sirajganj\",\"BD-61\":\"Sunamganj\",\"BD-60\":\"Sylhet\",\"BD-63\":\"Tangail\",\"BD-64\":\"Thakurgaon\"},\"BE\":[],\"BG\":{\"BG-01\":\"Blagoevgrad\",\"BG-02\":\"Burgas\",\"BG-08\":\"Dobrich\",\"BG-07\":\"Gabrovo\",\"BG-26\":\"Haskovo\",\"BG-09\":\"Kardzhali\",\"BG-10\":\"Kyustendil\",\"BG-11\":\"Lovech\",\"BG-12\":\"Montana\",\"BG-13\":\"Pazardzhik\",\"BG-14\":\"Pernik\",\"BG-15\":\"Pleven\",\"BG-16\":\"Plovdiv\",\"BG-17\":\"Razgrad\",\"BG-18\":\"Ruse\",\"BG-27\":\"Shumen\",\"BG-19\":\"Silistra\",\"BG-20\":\"Sliven\",\"BG-21\":\"Smolyan\",\"BG-23\":\"Sofia\",\"BG-22\":\"Sofia-Grad\",\"BG-24\":\"Stara Zagora\",\"BG-25\":\"Targovishte\",\"BG-03\":\"Varna\",\"BG-04\":\"Veliko Tarnovo\",\"BG-05\":\"Vidin\",\"BG-06\":\"Vratsa\",\"BG-28\":\"Yambol\"},\"BH\":[],\"BI\":[],\"BO\":{\"B\":\"Chuquisaca\",\"H\":\"Beni\",\"C\":\"Cochabamba\",\"L\":\"La Paz\",\"O\":\"Oruro\",\"N\":\"Pando\",\"P\":\"Potos\\u00ed\",\"S\":\"Santa Cruz\",\"T\":\"Tarija\"},\"BR\":{\"AC\":\"Acre\",\"AL\":\"Alagoas\",\"AP\":\"Amap\u00e1\",\"AM\":\"Amazonas\",\"BA\":\"Bahia\",\"CE\":\"Cear\u00e1\",\"DF\":\"Distrito Federal\",\"ES\":\"Esp\u00edrito Santo\",\"GO\":\"Goi\u00e1s\",\"MA\":\"Maranh\u00e3o\",\"MT\":\"Mato Grosso\",\"MS\":\"Mato Grosso do Sul\",\"MG\":\"Minas Gerais\",\"PA\":\"Par\u00e1\",\"PB\":\"Para\u00edba\",\"PR\":\"Paran\u00e1\",\"PE\":\"Pernambuco\",\"PI\":\"Piau\u00ed\",\"RJ\":\"Rio de Janeiro\",\"RN\":\"Rio Grande do Norte\",\"RS\":\"Rio Grande do Sul\",\"RO\":\"Rond\u00f4nia\",\"RR\":\"Roraima\",\"SC\":\"Santa Catarina\",\"SP\":\"S\u00e3o Paulo\",\"SE\":\"Sergipe\",\"TO\":\"Tocantins\"},\"CA\":{\"AB\":\"Alberta\",\"BC\":\"British Columbia\",\"MB\":\"Manitoba\",\"NB\":\"New Brunswick\",\"NL\":\"Terranova e Labrador\",\"NT\":\"Northwest Territories\",\"NS\":\"Nova Scotia\",\"NU\":\"Nunavut\",\"ON\":\"Ontario\",\"PE\":\"Prince Edward Island\",\"QC\":\"Quebec\",\"SK\":\"Saskatchewan\",\"YT\":\"Yukon Territory\"},\"CH\":{\"AG\":\"Canton Argovia\",\"AR\":\"Canton Appenzello Esterno\",\"AI\":\"Canton Appenzello Interno\",\"BL\":\"Canton Basilea Campagna\",\"BS\":\"Canton Basilea Citt\\u00e0\",\"BE\":\"Berna\",\"FR\":\"Friburgo\",\"GE\":\"Ginevra\",\"GL\":\"Glarona\",\"GR\":\"Cantone dei Grigioni\",\"JU\":\"Canton Giura\",\"LU\":\"Lucerna\",\"NE\":\"Neuch\\u00e2tel\",\"NW\":\"Canton Nidvaldo\",\"OW\":\"Canton Obvaldo\",\"SH\":\"Sciaffusa\",\"SZ\":\"Svitto\",\"SO\":\"Soletta\",\"SG\":\"San Gallo\",\"TG\":\"Canton Turgovia\",\"TI\":\"Canton Ticino\",\"UR\":\"Uri\",\"VS\":\"Canton Vallese\",\"VD\":\"Canton Vaud\",\"ZG\":\"Zugo\",\"ZH\":\"Zurigo\"},\"CN\":{\"CN1\":\"Yunnan \\\/ \u4e91\u5357\",\"CN2\":\"Pechino \\\/ \u5317\u4eac\",\"CN3\":\"Tianjin \\\/ \u5929\u6d25\",\"CN4\":\"Hebei \\\/ \u6cb3\u5317\",\"CN5\":\"Shanxi \\\/ \u5c71\u897f\",\"CN6\":\"Inner Mongolia \\\/ \u5167\u8499\u53e4\",\"CN7\":\"Liaoning \\\/ \u8fbd\u5b81\",\"CN8\":\"Jilin \\\/ \u5409\u6797\",\"CN9\":\"Heilongjiang \\\/ \u9ed1\u9f99\u6c5f\",\"CN10\":\"Shanghai \\\/ \u4e0a\u6d77\",\"CN11\":\"Jiangsu \\\/ \u6c5f\u82cf\",\"CN12\":\"Zhejiang \\\/ \u6d59\u6c5f\",\"CN13\":\"Anhui \\\/ \u5b89\u5fbd\",\"CN14\":\"Fujian \\\/ \u798f\u5efa\",\"CN15\":\"Jiangxi \\\/ \u6c5f\u897f\",\"CN16\":\"Shandong \\\/ \u5c71\u4e1c\",\"CN17\":\"Henan \\\/ \u6cb3\u5357\",\"CN18\":\"Hubei \\\/ \u6e56\u5317\",\"CN19\":\"Hunan \\\/ \u6e56\u5357\",\"CN20\":\"Guangdong \\\/ \u5e7f\u4e1c\",\"CN21\":\"Guangxi Zhuang \\\/ \u5e7f\u897f\u58ee\u65cf\",\"CN22\":\"Hainan \\\/ \u6d77\u5357\",\"CN23\":\"Chongqing \\\/ \u91cd\u5e86\",\"CN24\":\"Sichuan \\\/ \u56db\u5ddd\",\"CN25\":\"Guizhou \\\/ \u8d35\u5dde\",\"CN26\":\"Shaanxi \\\/ \u9655\u897f\",\"CN27\":\"Gansu \\\/ \u7518\u8083\",\"CN28\":\"Qinghai \\\/ \u9752\u6d77\",\"CN29\":\"Ningxia Hui \\\/ \u5b81\u590f\",\"CN30\":\"Macao \\\/ \u6fb3\u95e8\",\"CN31\":\"Tibet \\\/ \u897f\u85cf\",\"CN32\":\"Xinjiang \\\/ \u65b0\u7586\"},\"CZ\":[],\"DE\":[],\"DK\":[],\"EE\":[],\"ES\":{\"C\":\"La Coru\u00f1a\",\"VI\":\"Araba\\\/\u00c1lava\",\"AB\":\"Albacete\",\"A\":\"Alicante\",\"AL\":\"Almer\u00eda\",\"O\":\"Asturie\",\"AV\":\"\u00c1vila\",\"BA\":\"Badajoz\",\"PM\":\"Baleari\",\"B\":\"Barcellona\",\"BU\":\"Burgos\",\"CC\":\"C\u00e1ceres\",\"CA\":\"Cadice\",\"S\":\"Cantabria\",\"CS\":\"Castell\u00f3n\",\"CE\":\"Ceuta\",\"CR\":\"Ciudad Real\",\"CO\":\"C\u00f3rdoba\",\"CU\":\"Cuenca\",\"GI\":\"Girona\",\"GR\":\"Granada\",\"GU\":\"Guadalajara\",\"SS\":\"Gipuzkoa\",\"H\":\"Huelva\",\"HU\":\"Huesca\",\"J\":\"Ja\u00e9n\",\"LO\":\"La Rioja\",\"GC\":\"Las Palmas\",\"LE\":\"Le\u00f3n\",\"L\":\"Lleida\",\"LU\":\"Lugo\",\"M\":\"Madrid\",\"MA\":\"M\u00e1laga\",\"ML\":\"Melilla\",\"MU\":\"Murcia\",\"NA\":\"Navarra\",\"OR\":\"Ourense\",\"P\":\"Palencia\",\"PO\":\"Pontevedra\",\"SA\":\"Salamanca\",\"TF\":\"Santa Cruz di Tenerife\",\"SG\":\"Segovia\",\"SE\":\"Siviglia\",\"SO\":\"Soria\",\"T\":\"Tarragona\",\"TE\":\"Teruel\",\"TO\":\"Toledo\",\"V\":\"Valencia\",\"VA\":\"Valladolid\",\"BI\":\"Bizkaia\",\"ZA\":\"Zamora\",\"Z\":\"Saragozza\"},\"FI\":[],\"FR\":[],\"GP\":[],\"GR\":{\"I\":\"\\u0391\\u03c4\\u03c4\\u03b9\\u03ba\\u03ae\",\"A\":\"\\u0391\\u03bd\\u03b1\\u03c4\\u03bf\\u03bb\\u03b9\\u03ba\\u03ae \\u039c\\u03b1\\u03ba\\u03b5\\u03b4\\u03bf\\u03bd\\u03af\\u03b1 \\u03ba\\u03b1\\u03b9 \\u0398\\u03c1\\u03ac\\u03ba\\u03b7\",\"B\":\"\\u039a\\u03b5\\u03bd\\u03c4\\u03c1\\u03b9\\u03ba\\u03ae \\u039c\\u03b1\\u03ba\\u03b5\\u03b4\\u03bf\\u03bd\\u03af\\u03b1\",\"C\":\"\\u0394\\u03c5\\u03c4\\u03b9\\u03ba\\u03ae \\u039c\\u03b1\\u03ba\\u03b5\\u03b4\\u03bf\\u03bd\\u03af\\u03b1\",\"D\":\"\\u0389\\u03c0\\u03b5\\u03b9\\u03c1\\u03bf\\u03c2\",\"E\":\"\\u0398\\u03b5\\u03c3\\u03c3\\u03b1\\u03bb\\u03af\\u03b1\",\"F\":\"\\u0399\\u03cc\\u03bd\\u03b9\\u03bf\\u03b9 \\u039d\\u03ae\\u03c3\\u03bf\\u03b9\",\"G\":\"\\u0394\\u03c5\\u03c4\\u03b9\\u03ba\\u03ae \\u0395\\u03bb\\u03bb\\u03ac\\u03b4\\u03b1\",\"H\":\"\\u03a3\\u03c4\\u03b5\\u03c1\\u03b5\\u03ac \\u0395\\u03bb\\u03bb\\u03ac\\u03b4\\u03b1\",\"J\":\"\\u03a0\\u03b5\\u03bb\\u03bf\\u03c0\\u03cc\\u03bd\\u03bd\\u03b7\\u03c3\\u03bf\\u03c2\",\"K\":\"\\u0392\\u03cc\\u03c1\\u03b5\\u03b9\\u03bf \\u0391\\u03b9\\u03b3\\u03b1\\u03af\\u03bf\",\"L\":\"\\u039d\\u03cc\\u03c4\\u03b9\\u03bf \\u0391\\u03b9\\u03b3\\u03b1\\u03af\\u03bf\",\"M\":\"\\u039a\\u03c1\\u03ae\\u03c4\\u03b7\"},\"GF\":[],\"HK\":{\"HONG KONG\":\"Hong Kong\",\"KOWLOON\":\"Kowloon\",\"NEW TERRITORIES\":\"New Territories\"},\"HU\":{\"BK\":\"B\\u00e1cs-Kiskun\",\"BE\":\"B\\u00e9k\\u00e9s\",\"BA\":\"Baranya\",\"BZ\":\"Borsod-Aba\\u00faj-Zempl\\u00e9n\",\"BU\":\"Budapest\",\"CS\":\"Csongr\\u00e1d\",\"FE\":\"Fej\\u00e9r\",\"GS\":\"Gy\\u0151r-Moson-Sopron\",\"HB\":\"Hajd\\u00fa-Bihar\",\"HE\":\"Heves\",\"JN\":\"J\\u00e1sz-Nagykun-Szolnok\",\"KE\":\"Kom\\u00e1rom-Esztergom\",\"NO\":\"N\\u00f3gr\\u00e1d\",\"PE\":\"Pest\",\"SO\":\"Somogy\",\"SZ\":\"Szabolcs-Szatm\\u00e1r-Bereg\",\"TO\":\"Tolna\",\"VA\":\"Vas\",\"VE\":\"Veszpr\\u00e9m\",\"ZA\":\"Zala\"},\"ID\":{\"AC\":\"Daerah Istimewa Aceh\",\"SU\":\"Sumatera Utara\",\"SB\":\"Sumatera Barat\",\"RI\":\"Riau\",\"KR\":\"Kepulauan Riau\",\"JA\":\"Jambi\",\"SS\":\"Sumatera Selatan\",\"BB\":\"Bangka Belitung\",\"BE\":\"Bengkulu\",\"LA\":\"Lampung\",\"JK\":\"DKI Jakarta\",\"JB\":\"Jawa Barat\",\"BT\":\"Banten\",\"JT\":\"Jawa Tengah\",\"JI\":\"Jawa Timur\",\"YO\":\"Daerah Istimewa Yogyakarta\",\"BA\":\"Bali\",\"NB\":\"Nusa Tenggara Barat\",\"NT\":\"Nusa Tenggara Timur\",\"KB\":\"Kalimantan Barat\",\"KT\":\"Kalimantan Tengah\",\"KI\":\"Kalimantan Timur\",\"KS\":\"Kalimantan Selatan\",\"KU\":\"Kalimantan Utara\",\"SA\":\"Sulawesi Utara\",\"ST\":\"Sulawesi Tengah\",\"SG\":\"Sulawesi Tenggara\",\"SR\":\"Sulawesi Barat\",\"SN\":\"Sulawesi Selatan\",\"GO\":\"Gorontalo\",\"MA\":\"Maluku\",\"MU\":\"Maluku Utara\",\"PA\":\"Papua\",\"PB\":\"Papua Barat\"},\"IE\":{\"CW\":\"Carlow\",\"CN\":\"Contea di Cavan\",\"CE\":\"Contea di Clare\",\"CO\":\"Contea di Cork\",\"DL\":\"Donegal\",\"D\":\"Dublino\",\"G\":\"Galway\",\"KY\":\"Kerry\",\"KE\":\"Kildare\",\"KK\":\"Kilkenny\",\"LS\":\"Laois\",\"LM\":\"Contea di Leitrim\",\"LK\":\"Limerick\",\"LD\":\"Longford\",\"LH\":\"Louth\",\"MO\":\"Mayo\",\"MH\":\"Meath\",\"MN\":\"Monaghan\",\"OY\":\"Offaly\",\"RN\":\"Roscommon\",\"SO\":\"Sligo\",\"TA\":\"Tipperary\",\"WD\":\"Waterford\",\"WH\":\"Westmeath\",\"WX\":\"Wexford\",\"WW\":\"Wicklow\"},\"IN\":{\"AP\":\"Andhra Pradesh\",\"AR\":\"Arunachal Pradesh\",\"AS\":\"Assam\",\"BR\":\"Bihar\",\"CT\":\"Chhattisgarh\",\"GA\":\"Goa\",\"GJ\":\"Gujarat\",\"HR\":\"Haryana\",\"HP\":\"Himachal Pradesh\",\"JK\":\"Jammu and Kashmir\",\"JH\":\"Jharkhand\",\"KA\":\"Karnataka\",\"KL\":\"Kerala\",\"MP\":\"Madhya Pradesh\",\"MH\":\"Maharashtra\",\"MN\":\"Manipur\",\"ML\":\"Meghalaya\",\"MZ\":\"Mizoram\",\"NL\":\"Nagaland\",\"OR\":\"Orissa\",\"PB\":\"Punjab\",\"RJ\":\"Rajasthan\",\"SK\":\"Sikkim\",\"TN\":\"Tamil Nadu\",\"TS\":\"Telangana\",\"TR\":\"Tripura\",\"UK\":\"Uttarakhand\",\"UP\":\"Uttar Pradesh\",\"WB\":\"West Bengal\",\"AN\":\"Andaman and Nicobar Islands\",\"CH\":\"Chandigarh\",\"DN\":\"Dadra and Nagar Haveli\",\"DD\":\"Daman and Diu\",\"DL\":\"Delhi\",\"LD\":\"Lakshadeep\",\"PY\":\"Pondicherry (Puducherry)\"},\"IR\":{\"KHZ\":\"Khuzestan  (\\u062e\\u0648\\u0632\\u0633\\u062a\\u0627\\u0646)\",\"THR\":\"Tehran  (\\u062a\\u0647\\u0631\\u0627\\u0646)\",\"ILM\":\"Ilaam (\\u0627\\u06cc\\u0644\\u0627\\u0645)\",\"BHR\":\"Bushehr (\\u0628\\u0648\\u0634\\u0647\\u0631)\",\"ADL\":\"Ardabil (\\u0627\\u0631\\u062f\\u0628\\u06cc\\u0644)\",\"ESF\":\"Isfahan (\\u0627\\u0635\\u0641\\u0647\\u0627\\u0646)\",\"YZD\":\"Yazd (\\u06cc\\u0632\\u062f)\",\"KRH\":\"Kermanshah (\\u06a9\\u0631\\u0645\\u0627\\u0646\\u0634\\u0627\\u0647)\",\"KRN\":\"Kerman (\\u06a9\\u0631\\u0645\\u0627\\u0646)\",\"HDN\":\"Hamadan (\\u0647\\u0645\\u062f\\u0627\\u0646)\",\"GZN\":\"Ghazvin (\\u0642\\u0632\\u0648\\u06cc\\u0646)\",\"ZJN\":\"Zanjan (\\u0632\\u0646\\u062c\\u0627\\u0646)\",\"LRS\":\"Luristan (\\u0644\\u0631\\u0633\\u062a\\u0627\\u0646)\",\"ABZ\":\"Alborz (\\u0627\\u0644\\u0628\\u0631\\u0632)\",\"EAZ\":\"East Azarbaijan (\\u0622\\u0630\\u0631\\u0628\\u0627\\u06cc\\u062c\\u0627\\u0646 \\u0634\\u0631\\u0642\\u06cc)\",\"WAZ\":\"West Azarbaijan (\\u0622\\u0630\\u0631\\u0628\\u0627\\u06cc\\u062c\\u0627\\u0646 \\u063a\\u0631\\u0628\\u06cc)\",\"CHB\":\"Chaharmahal e Bakhtiari (\\u0686\\u0647\\u0627\\u0631\\u0645\\u062d\\u0627\\u0644 \\u0648 \\u0628\\u062e\\u062a\\u06cc\\u0627\\u0631\\u06cc)\",\"SKH\":\"South Khorasan (\\u062e\\u0631\\u0627\\u0633\\u0627\\u0646 \\u062c\\u0646\\u0648\\u0628\\u06cc)\",\"RKH\":\"Razavi Khorasan (\\u062e\\u0631\\u0627\\u0633\\u0627\\u0646 \\u0631\\u0636\\u0648\\u06cc)\",\"NKH\":\"Nord Khorasan (\\u062e\\u0631\\u0627\\u0633\\u0627\\u0646 \\u0634\\u0645\\u0627\\u0644\\u06cc)\",\"SMN\":\"Semnan (\\u0633\\u0645\\u0646\\u0627\\u0646)\",\"FRS\":\"Fars (\\u0641\\u0627\\u0631\\u0633)\",\"QHM\":\"Qom (\\u0642\\u0645)\",\"KRD\":\"Kurdistan \\\/ \\u06a9\\u0631\\u062f\\u0633\\u062a\\u0627\\u0646)\",\"KBD\":\"Kohgiluyeh e BoyerAhmad (\\u06a9\\u0647\\u06af\\u06cc\\u0644\\u0648\\u06cc\\u06cc\\u0647 \\u0648 \\u0628\\u0648\\u06cc\\u0631\\u0627\\u062d\\u0645\\u062f)\",\"GLS\":\"Golestan (\\u06af\\u0644\\u0633\\u062a\\u0627\\u0646)\",\"GIL\":\"Gilan (\\u06af\\u06cc\\u0644\\u0627\\u0646)\",\"MZN\":\"Mazandaran (\\u0645\\u0627\\u0632\\u0646\\u062f\\u0631\\u0627\\u0646)\",\"MKZ\":\"Markazi (\\u0645\\u0631\\u06a9\\u0632\\u06cc)\",\"HRZ\":\"Hormozgan (\\u0647\\u0631\\u0645\\u0632\\u06af\\u0627\\u0646)\",\"SBN\":\"Sistan e Baluchestan (\\u0633\\u06cc\\u0633\\u062a\\u0627\\u0646 \\u0648 \\u0628\\u0644\\u0648\\u0686\\u0633\\u062a\\u0627\\u0646)\"},\"IS\":[],\"IT\":{\"AG\":\"Agrigento\",\"AL\":\"Alessandria\",\"AN\":\"Ancona\",\"AO\":\"Aosta\",\"AR\":\"Arezzo\",\"AP\":\"Ascoli Piceno\",\"AT\":\"Asti\",\"AV\":\"Avellino\",\"BA\":\"Bari\",\"BT\":\"Barletta-Andria-Trani\",\"BL\":\"Belluno\",\"BN\":\"Benevento\",\"BG\":\"Bergamo\",\"BI\":\"Biella\",\"BO\":\"Bologna\",\"BZ\":\"Bolzano\",\"BS\":\"Brescia\",\"BR\":\"Brindisi\",\"CA\":\"Cagliari\",\"CL\":\"Caltanissetta\",\"CB\":\"Campobasso\",\"CE\":\"Caserta\",\"CT\":\"Catania\",\"CZ\":\"Catanzaro\",\"CH\":\"Chieti\",\"CO\":\"Como\",\"CS\":\"Cosenza\",\"CR\":\"Cremona\",\"KR\":\"Crotone\",\"CN\":\"Cuneo\",\"EN\":\"Enna\",\"FM\":\"Fermo\",\"FE\":\"Ferrara\",\"FI\":\"Firenze\",\"FG\":\"Foggia\",\"FC\":\"Forl\\u00ec-Cesena\",\"FR\":\"Frosinone\",\"GE\":\"Genova\",\"GO\":\"Gorizia\",\"GR\":\"Grosseto\",\"IM\":\"Imperia\",\"IS\":\"Isernia\",\"SP\":\"La Spezia\",\"AQ\":\"L'Aquila\",\"LT\":\"Latina\",\"LE\":\"Lecce\",\"LC\":\"Lecco\",\"LI\":\"Livorno\",\"LO\":\"Lodi\",\"LU\":\"Lucca\",\"MC\":\"Macerata\",\"MN\":\"Mantova\",\"MS\":\"Massa-Carrara\",\"MT\":\"Matera\",\"ME\":\"Messina\",\"MI\":\"Milano\",\"MO\":\"Modena\",\"MB\":\"Monza e della Brianza\",\"NA\":\"Napoli\",\"NO\":\"Novara\",\"NU\":\"Nuoro\",\"OR\":\"Oristano\",\"PD\":\"Padova\",\"PA\":\"Palermo\",\"PR\":\"Parma\",\"PV\":\"Pavia\",\"PG\":\"Perugia\",\"PU\":\"Pesaro e Urbino\",\"PE\":\"Pescara\",\"PC\":\"Piacenza\",\"PI\":\"Pisa\",\"PT\":\"Pistoia\",\"PN\":\"Pordenone\",\"PZ\":\"Potenza\",\"PO\":\"Prato\",\"RG\":\"Ragusa\",\"RA\":\"Ravenna\",\"RC\":\"Reggio Calabria\",\"RE\":\"Reggio Emilia\",\"RI\":\"Rieti\",\"RN\":\"Rimini\",\"RM\":\"Roma\",\"RO\":\"Rovigo\",\"SA\":\"Salerno\",\"SS\":\"Sassari\",\"SV\":\"Savona\",\"SI\":\"Siena\",\"SR\":\"Siracusa\",\"SO\":\"Sondrio\",\"SU\":\"Sud Sardegna\",\"TA\":\"Taranto\",\"TE\":\"Teramo\",\"TR\":\"Terni\",\"TO\":\"Torino\",\"TP\":\"Trapani\",\"TN\":\"Trento\",\"TV\":\"Treviso\",\"TS\":\"Trieste\",\"UD\":\"Udine\",\"VA\":\"Varese\",\"VE\":\"Venezia\",\"VB\":\"Verbano-Cusio-Ossola\",\"VC\":\"Vercelli\",\"VR\":\"Verona\",\"VV\":\"Vibo Valentia\",\"VI\":\"Vicenza\",\"VT\":\"Viterbo\"},\"IL\":[],\"IM\":[],\"JP\":{\"JP01\":\"Hokkaido\",\"JP02\":\"Aomori\",\"JP03\":\"Iwate\",\"JP04\":\"Miyagi\",\"JP05\":\"Akita\",\"JP06\":\"Yamagata\",\"JP07\":\"Fukushima\",\"JP08\":\"Ibaraki\",\"JP09\":\"Tochigi\",\"JP10\":\"Gunma\",\"JP11\":\"Saitama\",\"JP12\":\"Chiba\",\"JP13\":\"Tokyo\",\"JP14\":\"Kanagawa\",\"JP15\":\"Niigata\",\"JP16\":\"Toyama\",\"JP17\":\"Ishikawa\",\"JP18\":\"Fukui\",\"JP19\":\"Yamanashi\",\"JP20\":\"Nagano\",\"JP21\":\"Gifu\",\"JP22\":\"Shizuoka\",\"JP23\":\"Aichi\",\"JP24\":\"Mie\",\"JP25\":\"Shiga\",\"JP26\":\"Kyoto\",\"JP27\":\"Osaka\",\"JP28\":\"Hyogo\",\"JP29\":\"Nara\",\"JP30\":\"Wakayama\",\"JP31\":\"Tottori\",\"JP32\":\"Shimane\",\"JP33\":\"Okayama\",\"JP34\":\"Hiroshima\",\"JP35\":\"Yamaguchi\",\"JP36\":\"Tokushima\",\"JP37\":\"Kagawa\",\"JP38\":\"Ehime\",\"JP39\":\"Kochi\",\"JP40\":\"Fukuoka\",\"JP41\":\"Saga\",\"JP42\":\"Nagasaki\",\"JP43\":\"Kumamoto\",\"JP44\":\"Oita\",\"JP45\":\"Miyazaki\",\"JP46\":\"Kagoshima\",\"JP47\":\"Okinawa\"},\"KR\":[],\"KW\":[],\"LB\":[],\"LR\":{\"BM\":\"Bomi\",\"BN\":\"Bong\",\"GA\":\"Gbarpolu\",\"GB\":\"Grand Bassa\",\"GC\":\"Grand Cape Mount\",\"GG\":\"Grand Gedeh\",\"GK\":\"Grand Kru\",\"LO\":\"Lofa\",\"MA\":\"Margibi\",\"MY\":\"Maryland\",\"MO\":\"Montserrado\",\"NM\":\"Nimba\",\"RV\":\"Rivercess\",\"RG\":\"River Gee\",\"SN\":\"Sinoe\"},\"LU\":[],\"MD\":{\"C\":\"Chi\\u0219in\\u0103u\",\"BL\":\"B\\u0103l\\u021bi\",\"AN\":\"Anenii Noi\",\"BS\":\"Basarabeasca\",\"BR\":\"Briceni\",\"CH\":\"Cahul\",\"CT\":\"Cantemir\",\"CL\":\"C\\u0103l\\u0103ra\\u0219i\",\"CS\":\"C\\u0103u\\u0219eni\",\"CM\":\"Cimi\\u0219lia\",\"CR\":\"Criuleni\",\"DN\":\"Dondu\\u0219eni\",\"DR\":\"Drochia\",\"DB\":\"Dub\\u0103sari\",\"ED\":\"Edine\\u021b\",\"FL\":\"F\\u0103le\\u0219ti\",\"FR\":\"Flore\\u0219ti\",\"GE\":\"UTA G\\u0103g\\u0103uzia\",\"GL\":\"Glodeni\",\"HN\":\"H\\u00eence\\u0219ti\",\"IL\":\"Ialoveni\",\"LV\":\"Leova\",\"NS\":\"Nisporeni\",\"OC\":\"Ocni\\u021ba\",\"OR\":\"Orhei\",\"RZ\":\"Rezina\",\"RS\":\"R\\u00ee\\u0219cani\",\"SG\":\"S\\u00eengerei\",\"SR\":\"Soroca\",\"ST\":\"Str\\u0103\\u0219eni\",\"SD\":\"\\u0218old\\u0103ne\\u0219ti\",\"SV\":\"\\u0218tefan Vod\\u0103\",\"TR\":\"Taraclia\",\"TL\":\"Telene\\u0219ti\",\"UN\":\"Ungheni\"},\"MQ\":[],\"MT\":[],\"MX\":{\"DF\":\"Citt\\u00e0 del Messico\",\"JA\":\"Jalisco\",\"NL\":\"Nuevo Le\\u00f3n\",\"AG\":\"Aguascalientes\",\"BC\":\"Bassa California\",\"BS\":\"Baja California Sur\",\"CM\":\"Campeche\",\"CS\":\"Chiapas\",\"CH\":\"Chihuahua\",\"CO\":\"Coahuila\",\"CL\":\"Colima\",\"DG\":\"Durango\",\"GT\":\"Guanajuato\",\"GR\":\"Guerrero\",\"HG\":\"Hidalgo\",\"MX\":\"Stato del Messico\",\"MI\":\"Michoac\\u00e1n\",\"MO\":\"Morelos\",\"NA\":\"Nayarit\",\"OA\":\"Oaxaca\",\"PU\":\"Puebla\",\"QT\":\"Quer\\u00e9taro\",\"QR\":\"Quintana Roo\",\"SL\":\"San Luis Potos\\u00ed\",\"SI\":\"Sinaloa\",\"SO\":\"Sonora\",\"TB\":\"Tabasco\",\"TM\":\"Tamaulipas\",\"TL\":\"Tlaxcala\",\"VE\":\"Veracruz\",\"YU\":\"Yucat\\u00e1n\",\"ZA\":\"Zacatecas\"},\"MY\":{\"JHR\":\"Johor\",\"KDH\":\"Kedah\",\"KTN\":\"Kelantan\",\"LBN\":\"Labuan\",\"MLK\":\"Malacca (Melaka)\",\"NSN\":\"Negeri Sembilan\",\"PHG\":\"Pahang\",\"PNG\":\"Penang (Pulau Pinang)\",\"PRK\":\"Perak\",\"PLS\":\"Perlis\",\"SBH\":\"Sabah\",\"SWK\":\"Sarawak\",\"SGR\":\"Selangor\",\"TRG\":\"Terengganu\",\"PJY\":\"Putrajaya\",\"KUL\":\"Kuala Lumpur\"},\"NG\":{\"AB\":\"Abia\",\"FC\":\"Abuja\",\"AD\":\"Adamawa\",\"AK\":\"Akwa Ibom\",\"AN\":\"Anambra\",\"BA\":\"Bauchi\",\"BY\":\"Bayelsa\",\"BE\":\"Benue\",\"BO\":\"Borno\",\"CR\":\"Cross River\",\"DE\":\"Delta\",\"EB\":\"Ebonyi\",\"ED\":\"Edo\",\"EK\":\"Ekiti\",\"EN\":\"Enugu\",\"GO\":\"Gombe\",\"IM\":\"Imo\",\"JI\":\"Jigawa\",\"KD\":\"Kaduna\",\"KN\":\"Kano\",\"KT\":\"Katsina\",\"KE\":\"Kebbi\",\"KO\":\"Kogi\",\"KW\":\"Kwara\",\"LA\":\"Lagos\",\"NA\":\"Nasarawa\",\"NI\":\"Niger\",\"OG\":\"Ogun\",\"ON\":\"Ondo\",\"OS\":\"Osun\",\"OY\":\"Oyo\",\"PL\":\"Plateau\",\"RI\":\"Rivers\",\"SO\":\"Sokoto\",\"TA\":\"Taraba\",\"YO\":\"Yobe\",\"ZA\":\"Zamfara\"},\"NL\":[],\"NO\":[],\"NP\":{\"BAG\":\"Bagmati\",\"BHE\":\"Bheri\",\"DHA\":\"Dhaulagiri\",\"GAN\":\"Gandaki\",\"JAN\":\"Janakpur\",\"KAR\":\"Karnali\",\"KOS\":\"Koshi\",\"LUM\":\"Lumbini\",\"MAH\":\"Mahakali\",\"MEC\":\"Mechi\",\"NAR\":\"Narayani\",\"RAP\":\"Rapti\",\"SAG\":\"Sagarmatha\",\"SET\":\"Seti\"},\"NZ\":{\"NL\":\"Terre del nord\",\"AK\":\"Auckland\",\"WA\":\"Waikato\",\"BP\":\"Bay of Plenty\",\"TK\":\"Taranaki\",\"GI\":\"Gisborne\",\"HB\":\"Hawke\u2019s Bay\",\"MW\":\"Manawatu-Wanganui\",\"WE\":\"Wellington\",\"NS\":\"Nelson\",\"MB\":\"Marlborough\",\"TM\":\"Tasman\",\"WC\":\"West Coast\",\"CT\":\"Canterbury\",\"OT\":\"Otago\",\"SL\":\"Southland\"},\"PE\":{\"CAL\":\"El Callao\",\"LMA\":\"Municipalidad Metropolitana de Lima\",\"AMA\":\"Amazonas\",\"ANC\":\"Ancash\",\"APU\":\"Apur\u00edmac\",\"ARE\":\"Arequipa\",\"AYA\":\"Ayacucho\",\"CAJ\":\"Cajamarca\",\"CUS\":\"Cusco\",\"HUV\":\"Huancavelica\",\"HUC\":\"Hu\u00e1nuco\",\"ICA\":\"Ica\",\"JUN\":\"Jun\u00edn\",\"LAL\":\"La Libertad\",\"LAM\":\"Lambayeque\",\"LIM\":\"Lima\",\"LOR\":\"Loreto\",\"MDD\":\"Madre de Dios\",\"MOQ\":\"Moquegua\",\"PAS\":\"Pasco\",\"PIU\":\"Piura\",\"PUN\":\"Puno\",\"SAM\":\"San Mart\u00edn\",\"TAC\":\"Tacna\",\"TUM\":\"Tumbes\",\"UCA\":\"Ucayali\"},\"PH\":{\"ABR\":\"Abra\",\"AGN\":\"Agusan del Norte\",\"AGS\":\"Agusan del Sur\",\"AKL\":\"Aklan\",\"ALB\":\"Albay\",\"ANT\":\"Antique\",\"APA\":\"Apayao\",\"AUR\":\"Aurora\",\"BAS\":\"Basilan\",\"BAN\":\"Bataan\",\"BTN\":\"Batanes\",\"BTG\":\"Batangas\",\"BEN\":\"Benguet\",\"BIL\":\"Biliran\",\"BOH\":\"Bohol\",\"BUK\":\"Bukidnon\",\"BUL\":\"Bulacan\",\"CAG\":\"Cagayan\",\"CAN\":\"Camarines Norte\",\"CAS\":\"Camarines Sur\",\"CAM\":\"Camiguin\",\"CAP\":\"Capiz\",\"CAT\":\"Catanduanes\",\"CAV\":\"Cavite\",\"CEB\":\"Cebu\",\"COM\":\"Compostela Valley\",\"NCO\":\"Cotabato\",\"DAV\":\"Davao del Norte\",\"DAS\":\"Davao del Sur\",\"DAC\":\"Davao Occidental\",\"DAO\":\"Davao Oriental\",\"DIN\":\"Isole Dinagat\",\"EAS\":\"Eastern Samar\",\"GUI\":\"Guimaras\",\"IFU\":\"Ifugao\",\"ILN\":\"Ilocos Norte\",\"ILS\":\"Ilocos Sur\",\"ILI\":\"Iloilo\",\"ISA\":\"Isabela\",\"KAL\":\"Kalinga\",\"LUN\":\"La Union\",\"LAG\":\"Laguna\",\"LAN\":\"Lanao del Norte\",\"LAS\":\"Lanao del Sur\",\"LEY\":\"Leyte\",\"MAG\":\"Maguindanao\",\"MAD\":\"Marinduque\",\"MAS\":\"Masbate\",\"MSC\":\"Misamis Occidental\",\"MSR\":\"Misamis Oriental\",\"MOU\":\"Mountain Province\",\"NEC\":\"Negros Occidental\",\"NER\":\"Negros Oriental\",\"NSA\":\"Northern Samar\",\"NUE\":\"Nueva Ecija\",\"NUV\":\"Nueva Vizcaya\",\"MDC\":\"Occidental Mindoro\",\"MDR\":\"Oriental Mindoro\",\"PLW\":\"Palawan\",\"PAM\":\"Pampanga\",\"PAN\":\"Pangasinan\",\"QUE\":\"Quezon\",\"QUI\":\"Quirino\",\"RIZ\":\"Rizal\",\"ROM\":\"Romblon\",\"WSA\":\"Samar\",\"SAR\":\"Sarangani\",\"SIQ\":\"Siquijor\",\"SOR\":\"Sorsogon\",\"SCO\":\"South Cotabato\",\"SLE\":\"Southern Leyte\",\"SUK\":\"Sultan Kudarat\",\"SLU\":\"Sulu\",\"SUN\":\"Surigao del Norte\",\"SUR\":\"Surigao del Sur\",\"TAR\":\"Tarlac\",\"TAW\":\"Tawi-Tawi\",\"ZMB\":\"Zambales\",\"ZAN\":\"Zamboanga del Norte\",\"ZAS\":\"Zamboanga del Sur\",\"ZSI\":\"Zamboanga Sibugay\",\"00\":\"Metro Manila\"},\"PK\":{\"JK\":\"Azad Kashmir\",\"BA\":\"Balochistan\",\"TA\":\"FATA\",\"GB\":\"Gilgit Baltistan\",\"IS\":\"Islamabad Capital Territory\",\"KP\":\"Khyber Pakhtunkhwa\",\"PB\":\"Punjab\",\"SD\":\"Sindh\"},\"PL\":[],\"PT\":[],\"PY\":{\"PY-ASU\":\"Asunci\\u00f3n\",\"PY-1\":\"Concepci\\u00f3n\",\"PY-2\":\"San Pedro\",\"PY-3\":\"Cordillera\",\"PY-4\":\"Guair\\u00e1\",\"PY-5\":\"Caaguaz\\u00fa\",\"PY-6\":\"Caazap\\u00e1\",\"PY-7\":\"Itap\\u00faa\",\"PY-8\":\"Misiones\",\"PY-9\":\"Paraguar\\u00ed\",\"PY-10\":\"Alto Paran\\u00e1\",\"PY-11\":\"Central\",\"PY-12\":\"\\u00d1eembuc\\u00fa\",\"PY-13\":\"Amambay\",\"PY-14\":\"Canindey\\u00fa\",\"PY-15\":\"Presidente Hayes\",\"PY-16\":\"Alto Paraguay\",\"PY-17\":\"Boquer\\u00f3n\"},\"RE\":[],\"RO\":{\"AB\":\"Alba\",\"AR\":\"Arad\",\"AG\":\"Arge\\u0219\",\"BC\":\"Bac\\u0103u\",\"BH\":\"Bihor\",\"BN\":\"Bistri\\u021ba-N\\u0103s\\u0103ud\",\"BT\":\"Boto\\u0219ani\",\"BR\":\"Br\\u0103ila\",\"BV\":\"Bra\\u0219ov\",\"B\":\"Bucure\\u0219ti\",\"BZ\":\"Buz\\u0103u\",\"CL\":\"C\\u0103l\\u0103ra\\u0219i\",\"CS\":\"Cara\\u0219-Severin\",\"CJ\":\"Cluj\",\"CT\":\"Constan\\u021ba\",\"CV\":\"Covasna\",\"DB\":\"D\\u00e2mbovi\\u021ba\",\"DJ\":\"Dolj\",\"GL\":\"Gala\\u021bi\",\"GR\":\"Giurgiu\",\"GJ\":\"Gorj\",\"HR\":\"Harghita\",\"HD\":\"Hunedoara\",\"IL\":\"Ialomi\\u021ba\",\"IS\":\"Ia\\u0219i\",\"IF\":\"Ilfov\",\"MM\":\"Maramure\\u0219\",\"MH\":\"Mehedin\\u021bi\",\"MS\":\"Mure\\u0219\",\"NT\":\"Neam\\u021b\",\"OT\":\"Olt\",\"PH\":\"Prahova\",\"SJ\":\"S\\u0103laj\",\"SM\":\"Satu Mare\",\"SB\":\"Sibiu\",\"SV\":\"Suceava\",\"TR\":\"Teleorman\",\"TM\":\"Timi\\u0219\",\"TL\":\"Tulcea\",\"VL\":\"V\\u00e2lcea\",\"VS\":\"Vaslui\",\"VN\":\"Vrancea\"},\"RS\":[],\"SG\":[],\"SK\":[],\"SI\":[],\"TH\":{\"TH-37\":\"Amnat Charoen\",\"TH-15\":\"Ang Thong\",\"TH-14\":\"Ayutthaya\",\"TH-10\":\"Bangkok\",\"TH-38\":\"Bueng Kan\",\"TH-31\":\"Buri Ram\",\"TH-24\":\"Chachoengsao\",\"TH-18\":\"Chai Nat\",\"TH-36\":\"Chaiyaphum\",\"TH-22\":\"Chanthaburi\",\"TH-50\":\"Chiang Mai\",\"TH-57\":\"Chiang Rai\",\"TH-20\":\"Chonburi\",\"TH-86\":\"Chumphon\",\"TH-46\":\"Kalasin\",\"TH-62\":\"Kamphaeng Phet\",\"TH-71\":\"Kanchanaburi\",\"TH-40\":\"Khon Kaen\",\"TH-81\":\"Krabi\",\"TH-52\":\"Lampang\",\"TH-51\":\"Lamphun\",\"TH-42\":\"Loei\",\"TH-16\":\"Lopburi\",\"TH-58\":\"Mae Hong Son\",\"TH-44\":\"Maha Sarakham\",\"TH-49\":\"Mukdahan\",\"TH-26\":\"Nakhon Nayok\",\"TH-73\":\"Nakhon Pathom\",\"TH-48\":\"Nakhon Phanom\",\"TH-30\":\"Nakhon Ratchasima\",\"TH-60\":\"Nakhon Sawan\",\"TH-80\":\"Nakhon Si Thammarat\",\"TH-55\":\"Nan\",\"TH-96\":\"Narathiwat\",\"TH-39\":\"Nong Bua Lam Phu\",\"TH-43\":\"Nong Khai\",\"TH-12\":\"Nonthaburi\",\"TH-13\":\"Pathum Thani\",\"TH-94\":\"Pattani\",\"TH-82\":\"Phang Nga\",\"TH-93\":\"Phatthalung\",\"TH-56\":\"Phayao\",\"TH-67\":\"Phetchabun\",\"TH-76\":\"Phetchaburi\",\"TH-66\":\"Phichit\",\"TH-65\":\"Phitsanulok\",\"TH-54\":\"Phrae\",\"TH-83\":\"Phuket\",\"TH-25\":\"Prachin Buri\",\"TH-77\":\"Prachuap Khiri Khan\",\"TH-85\":\"Ranong\",\"TH-70\":\"Ratchaburi\",\"TH-21\":\"Rayong\",\"TH-45\":\"Roi Et\",\"TH-27\":\"Sa Kaeo\",\"TH-47\":\"Sakon Nakhon\",\"TH-11\":\"Samut Prakan\",\"TH-74\":\"Samut Sakhon\",\"TH-75\":\"Samut Songkhram\",\"TH-19\":\"Saraburi\",\"TH-91\":\"Satun\",\"TH-17\":\"Sing Buri\",\"TH-33\":\"Sisaket\",\"TH-90\":\"Songkhla\",\"TH-64\":\"Sukhothai\",\"TH-72\":\"Suphan Buri\",\"TH-84\":\"Surat Thani\",\"TH-32\":\"Surin\",\"TH-63\":\"Tak\",\"TH-92\":\"Trang\",\"TH-23\":\"Trat\",\"TH-34\":\"Ubon Ratchathani\",\"TH-41\":\"Udon Thani\",\"TH-61\":\"Uthai Thani\",\"TH-53\":\"Uttaradit\",\"TH-95\":\"Yala\",\"TH-35\":\"Yasothon\"},\"TR\":{\"TR01\":\"Adana\",\"TR02\":\"Ad\u0131yaman\",\"TR03\":\"Afyon\",\"TR04\":\"A\u011fr\u0131\",\"TR05\":\"Amasya\",\"TR06\":\"Ankara\",\"TR07\":\"Antalya\",\"TR08\":\"Artvin\",\"TR09\":\"Ayd\u0131n\",\"TR10\":\"Bal\u0131kesir\",\"TR11\":\"Bilecik\",\"TR12\":\"Bing\u00f6l\",\"TR13\":\"Bitlis\",\"TR14\":\"Bolu\",\"TR15\":\"Burdur\",\"TR16\":\"Bursa\",\"TR17\":\"\u00c7anakkale\",\"TR18\":\"\u00c7ank\u0131r\u0131\",\"TR19\":\"\u00c7orum\",\"TR20\":\"Denizli\",\"TR21\":\"Diyarbak\u0131r\",\"TR22\":\"Edirne\",\"TR23\":\"Elaz\u0131\u011f\",\"TR24\":\"Erzincan\",\"TR25\":\"Erzurum\",\"TR26\":\"Eski\u015fehir\",\"TR27\":\"Gaziantep\",\"TR28\":\"Giresun\",\"TR29\":\"G\u00fcm\u00fc\u015fhane\",\"TR30\":\"Hakkari\",\"TR31\":\"Hatay\",\"TR32\":\"Isparta\",\"TR33\":\"\u0130\u00e7el\",\"TR34\":\"\u0130stanbul\",\"TR35\":\"\u0130zmir\",\"TR36\":\"Kars\",\"TR37\":\"Kastamonu\",\"TR38\":\"Kayseri\",\"TR39\":\"K\u0131rklareli\",\"TR40\":\"K\u0131r\u015fehir\",\"TR41\":\"Kocaeli\",\"TR42\":\"Konya\",\"TR43\":\"K\u00fctahya\",\"TR44\":\"Malatya\",\"TR45\":\"Manisa\",\"TR46\":\"Kahramanmara\u015f\",\"TR47\":\"Mardin\",\"TR48\":\"Mu\u011fla\",\"TR49\":\"Mu\u015f\",\"TR50\":\"Nev\u015fehir\",\"TR51\":\"Ni\u011fde\",\"TR52\":\"Ordu\",\"TR53\":\"Rize\",\"TR54\":\"Sakarya\",\"TR55\":\"Samsun\",\"TR56\":\"Siirt\",\"TR57\":\"Sinop\",\"TR58\":\"Sivas\",\"TR59\":\"Tekirda\u011f\",\"TR60\":\"Tokat\",\"TR61\":\"Trabzon\",\"TR62\":\"Tunceli\",\"TR63\":\"\u015eanl\u0131urfa\",\"TR64\":\"U\u015fak\",\"TR65\":\"Van\",\"TR66\":\"Yozgat\",\"TR67\":\"Zonguldak\",\"TR68\":\"Aksaray\",\"TR69\":\"Bayburt\",\"TR70\":\"Karaman\",\"TR71\":\"K\u0131r\u0131kkale\",\"TR72\":\"Batman\",\"TR73\":\"\u015e\u0131rnak\",\"TR74\":\"Bart\u0131n\",\"TR75\":\"Ardahan\",\"TR76\":\"I\u011fd\u0131r\",\"TR77\":\"Yalova\",\"TR78\":\"Karab\u00fck\",\"TR79\":\"Kilis\",\"TR80\":\"Osmaniye\",\"TR81\":\"D\u00fczce\"},\"TZ\":{\"TZ01\":\"Arusha\",\"TZ02\":\"Dar es Salaam\",\"TZ03\":\"Dodoma\",\"TZ04\":\"Iringa\",\"TZ05\":\"Kagera\",\"TZ06\":\"Pemba settentrionale\",\"TZ07\":\"Zanzibar settentrionale\",\"TZ08\":\"Kigoma\",\"TZ09\":\"Kilimangiaro\",\"TZ10\":\"Pemba meridionale\",\"TZ11\":\"Zanzibar meridionale\",\"TZ12\":\"Lindi\",\"TZ13\":\"Mara\",\"TZ14\":\"Mbeya\",\"TZ15\":\"Zanzibar occidentale\",\"TZ16\":\"Morogoro\",\"TZ17\":\"Mtwara\",\"TZ18\":\"Mwanza\",\"TZ19\":\"Costa\",\"TZ20\":\"Rukwa\",\"TZ21\":\"Ruvuma\",\"TZ22\":\"Shinyanga\",\"TZ23\":\"Singida\",\"TZ24\":\"Tabora\",\"TZ25\":\"Tanga\",\"TZ26\":\"Manyara\",\"TZ27\":\"Geita\",\"TZ28\":\"Katavi\",\"TZ29\":\"Njombe\",\"TZ30\":\"Simiyu\"},\"LK\":[],\"SE\":[],\"UG\":{\"UG314\":\"Abim\",\"UG301\":\"Adjumani\",\"UG322\":\"Agago\",\"UG323\":\"Alebtong\",\"UG315\":\"Amolatar\",\"UG324\":\"Amudat\",\"UG216\":\"Amuria\",\"UG316\":\"Amuru\",\"UG302\":\"Apac\",\"UG303\":\"Arua\",\"UG217\":\"Budaka\",\"UG218\":\"Bududa\",\"UG201\":\"Bugiri\",\"UG235\":\"Bugweri\",\"UG420\":\"Buhweju\",\"UG117\":\"Buikwe\",\"UG219\":\"Bukedea\",\"UG118\":\"Bukomansimbi\",\"UG220\":\"Bukwa\",\"UG225\":\"Bulambuli\",\"UG416\":\"Buliisa\",\"UG401\":\"Bundibugyo\",\"UG430\":\"Bunyangabu\",\"UG402\":\"Bushenyi\",\"UG202\":\"Busia\",\"UG221\":\"Butaleja\",\"UG119\":\"Butambala\",\"UG233\":\"Butebo\",\"UG120\":\"Buvuma\",\"UG226\":\"Buyende\",\"UG317\":\"Dokolo\",\"UG121\":\"Gomba\",\"UG304\":\"Gulu\",\"UG403\":\"Hoima\",\"UG417\":\"Ibanda\",\"UG203\":\"Iganga\",\"UG418\":\"Isingiro\",\"UG204\":\"Jinja\",\"UG318\":\"Kaabong\",\"UG404\":\"Kabale\",\"UG405\":\"Kabarole\",\"UG213\":\"Kaberamaido\",\"UG427\":\"Kagadi\",\"UG428\":\"Kakumiro\",\"UG101\":\"Kalangala\",\"UG222\":\"Kaliro\",\"UG122\":\"Kalungu\",\"UG102\":\"Kampala\",\"UG205\":\"Kamuli\",\"UG413\":\"Kamwenge\",\"UG414\":\"Kanungu\",\"UG206\":\"Kapchorwa\",\"UG236\":\"Kapelebyong\",\"UG126\":\"Kasanda\",\"UG406\":\"Kasese\",\"UG207\":\"Katakwi\",\"UG112\":\"Kayunga\",\"UG407\":\"Kibaale\",\"UG103\":\"Kiboga\",\"UG227\":\"Kibuku\",\"UG432\":\"Kikuube\",\"UG419\":\"Kiruhura\",\"UG421\":\"Kiryandongo\",\"UG408\":\"Kisoro\",\"UG305\":\"Kitgum\",\"UG319\":\"Koboko\",\"UG325\":\"Kole\",\"UG306\":\"Kotido\",\"UG208\":\"Kumi\",\"UG333\":\"Kwania\",\"UG228\":\"Kween\",\"UG123\":\"Kyankwanzi\",\"UG422\":\"Kyegegwa\",\"UG415\":\"Kyenjojo\",\"UG125\":\"Kyotera\",\"UG326\":\"Lamwo\",\"UG307\":\"Lira\",\"UG229\":\"Luuka\",\"UG104\":\"Luwero\",\"UG124\":\"Lwengo\",\"UG114\":\"Lyantonde\",\"UG223\":\"Manafwa\",\"UG320\":\"Maracha\",\"UG105\":\"Masaka\",\"UG409\":\"Masindi\",\"UG214\":\"Mayuge\",\"UG209\":\"Mbale\",\"UG410\":\"Mbarara\",\"UG423\":\"Mitooma\",\"UG115\":\"Mityana\",\"UG308\":\"Moroto\",\"UG309\":\"Moyo\",\"UG106\":\"Mpigi\",\"UG107\":\"Mubende\",\"UG108\":\"Mukono\",\"UG334\":\"Nabilatuk\",\"UG311\":\"Nakapiripirit\",\"UG116\":\"Nakaseke\",\"UG109\":\"Nakasongola\",\"UG230\":\"Namayingo\",\"UG234\":\"Namisindwa\",\"UG224\":\"Namutumba\",\"UG327\":\"Napak\",\"UG310\":\"Nebbi\",\"UG231\":\"Ngora\",\"UG424\":\"Ntoroko\",\"UG411\":\"Ntungamo\",\"UG328\":\"Nwoya\",\"UG331\":\"Omoro\",\"UG329\":\"Otuke\",\"UG321\":\"Oyam\",\"UG312\":\"Pader\",\"UG332\":\"Pakwach\",\"UG210\":\"Pallisa\",\"UG110\":\"Rakai\",\"UG429\":\"Rubanda\",\"UG425\":\"Rubirizi\",\"UG431\":\"Rukiga\",\"UG412\":\"Rukungiri\",\"UG111\":\"Sembabule\",\"UG232\":\"Serere\",\"UG426\":\"Sheema\",\"UG215\":\"Sironko\",\"UG211\":\"Soroti\",\"UG212\":\"Tororo\",\"UG113\":\"Wakiso\",\"UG313\":\"Yumbe\",\"UG330\":\"Zombo\"},\"UM\":{\"81\":\"Isola Baker\",\"84\":\"Isola Howland\",\"86\":\"Isola Jarvis\",\"67\":\"Atollo Johnston\",\"89\":\"Kingman Reef\",\"71\":\"Atollo di Midway\",\"76\":\"Isola di Navassa\",\"95\":\"Atollo di Palmyra\",\"79\":\"Isola di Wake\"},\"US\":{\"AL\":\"Alabama\",\"AK\":\"Alaska\",\"AZ\":\"Arizona\",\"AR\":\"Arkansas\",\"CA\":\"California\",\"CO\":\"Colorado\",\"CT\":\"Connecticut\",\"DE\":\"Delaware\",\"DC\":\"District Of Columbia\",\"FL\":\"Florida\",\"GA\":\"Georgia\",\"HI\":\"Hawaii\",\"ID\":\"Idaho\",\"IL\":\"Illinois\",\"IN\":\"Indiana\",\"IA\":\"Iowa\",\"KS\":\"Kansas\",\"KY\":\"Kentucky\",\"LA\":\"Louisiana\",\"ME\":\"Maine\",\"MD\":\"Maryland\",\"MA\":\"Massachusetts\",\"MI\":\"Michigan\",\"MN\":\"Minnesota\",\"MS\":\"Mississippi\",\"MO\":\"Missouri\",\"MT\":\"Montana\",\"NE\":\"Nebraska\",\"NV\":\"Nevada\",\"NH\":\"New Hampshire\",\"NJ\":\"New Jersey\",\"NM\":\"New Mexico\",\"NY\":\"New York\",\"NC\":\"North Carolina\",\"ND\":\"North Dakota\",\"OH\":\"Ohio\",\"OK\":\"Oklahoma\",\"OR\":\"Oregon\",\"PA\":\"Pennsylvania\",\"RI\":\"Rhode Island\",\"SC\":\"South Carolina\",\"SD\":\"South Dakota\",\"TN\":\"Tennessee\",\"TX\":\"Texas\",\"UT\":\"Utah\",\"VT\":\"Vermont\",\"VA\":\"Virginia\",\"WA\":\"Washington\",\"WV\":\"West Virginia\",\"WI\":\"Wisconsin\",\"WY\":\"Wyoming\",\"AA\":\"Armed Forces (AA)\",\"AE\":\"Armed Forces (AE)\",\"AP\":\"Armed Forces (AP)\"},\"VN\":[],\"YT\":[],\"ZA\":{\"EC\":\"Eastern Cape\",\"FS\":\"Stato libero\",\"GP\":\"Gauteng\",\"KZN\":\"KwaZulu-Natal\",\"LP\":\"Limpopo\",\"MP\":\"Mpumalanga\",\"NC\":\"Capo Nord\",\"NW\":\"Nord Ovest\",\"WC\":\"Western Cape\"},\"ZM\":{\"ZM-01\":\"Occidentale\",\"ZM-02\":\"Central\",\"ZM-03\":\"Orientale\",\"ZM-04\":\"Luapula\",\"ZM-05\":\"Settentrionale\",\"ZM-06\":\"Nord-occidentale\",\"ZM-07\":\"Meridionale\",\"ZM-08\":\"Copperbelt\",\"ZM-09\":\"Lusaka\",\"ZM-10\":\"Muchinga\"}}","i18n_select_state_text":"Seleziona un'opzione\u2026","i18n_no_matches":"Nessun riscontro trovato","i18n_ajax_error":"Caricamento fallito","i18n_input_too_short_1":"Inserire 1 o pi\u00f9 caratteri","i18n_input_too_short_n":"Inserire %qty% o pi\u00f9 caratteri","i18n_input_too_long_1":"Elimina 1 carattere","i18n_input_too_long_n":"Elimina %qty% caratteri","i18n_selection_too_long_1":"Puoi selezionare solo 1 articolo.","i18n_selection_too_long_n":"Puoi selezionare solo %qty% articoli","i18n_load_more":"Caricamento altri risultati\u2026","i18n_searching":"Sto cercando\u2026"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/plugins/woocommerce/assets/js/frontend/country-select.min.js?ver=3.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_address_i18n_params = {"locale":"{\"AE\":{\"postcode\":{\"required\":false,\"hidden\":true},\"state\":{\"required\":false}},\"AF\":{\"state\":{\"required\":false}},\"AO\":{\"postcode\":{\"required\":false,\"hidden\":true},\"state\":{\"label\":\"Provincia\"}},\"AT\":{\"postcode\":{\"priority\":65},\"state\":{\"required\":false}},\"AU\":{\"city\":{\"label\":\"Borgo\"},\"postcode\":{\"label\":\"C.A.P.\"},\"state\":{\"label\":\"Provincia\"}},\"AX\":{\"postcode\":{\"priority\":65},\"state\":{\"required\":false}},\"BD\":{\"postcode\":{\"required\":false},\"state\":{\"label\":\"Distretto\"}},\"BE\":{\"postcode\":{\"priority\":65},\"state\":{\"required\":false,\"label\":\"Provincia\"}},\"BH\":{\"postcode\":{\"required\":false},\"state\":{\"required\":false}},\"BI\":{\"state\":{\"required\":false}},\"BO\":{\"postcode\":{\"required\":false,\"hidden\":true}},\"BS\":{\"postcode\":{\"required\":false,\"hidden\":true}},\"CA\":{\"postcode\":{\"label\":\"CAP\"},\"state\":{\"label\":\"Provincia\"}},\"CH\":{\"postcode\":{\"priority\":65},\"state\":{\"label\":\"Cantone\",\"required\":false}},\"CL\":{\"city\":{\"required\":true},\"postcode\":{\"required\":false},\"state\":{\"label\":\"Regione\"}},\"CN\":{\"state\":{\"label\":\"Provincia\"}},\"CO\":{\"postcode\":{\"required\":false}},\"CZ\":{\"state\":{\"required\":false}},\"DE\":{\"postcode\":{\"priority\":65},\"state\":{\"required\":false}},\"DK\":{\"postcode\":{\"priority\":65},\"state\":{\"required\":false}},\"EE\":{\"postcode\":{\"priority\":65},\"state\":{\"required\":false}},\"FI\":{\"postcode\":{\"priority\":65},\"state\":{\"required\":false}},\"FR\":{\"postcode\":{\"priority\":65},\"state\":{\"required\":false}},\"GP\":{\"state\":{\"required\":false}},\"GF\":{\"state\":{\"required\":false}},\"GR\":{\"state\":{\"required\":false}},\"HK\":{\"postcode\":{\"required\":false},\"city\":{\"label\":\"Citt\\u00e0\"},\"state\":{\"label\":\"Regione\"}},\"HU\":{\"state\":{\"label\":\"Regione\"}},\"ID\":{\"state\":{\"label\":\"Provincia\"}},\"IE\":{\"postcode\":{\"required\":false,\"label\":\"Eircode\"},\"state\":{\"label\":\"Regione\"}},\"IS\":{\"postcode\":{\"priority\":65},\"state\":{\"required\":false}},\"IL\":{\"postcode\":{\"priority\":65},\"state\":{\"required\":false}},\"IM\":{\"state\":{\"required\":false}},\"IT\":{\"postcode\":{\"priority\":65},\"state\":{\"required\":true,\"label\":\"Provincia\"}},\"JP\":{\"last_name\":{\"class\":[\"form-row-first\"],\"priority\":10},\"first_name\":{\"class\":[\"form-row-last\"],\"priority\":20},\"postcode\":{\"class\":[\"form-row-first\"],\"priority\":65},\"state\":{\"label\":\"Prefettura\",\"class\":[\"form-row-last\"],\"priority\":66},\"city\":{\"priority\":67},\"address_1\":{\"priority\":68},\"address_2\":{\"priority\":69}},\"KR\":{\"state\":{\"required\":false}},\"KW\":{\"state\":{\"required\":false}},\"LV\":{\"state\":{\"label\":\"Municipio\",\"required\":false}},\"LB\":{\"state\":{\"required\":false}},\"MQ\":{\"state\":{\"required\":false}},\"MT\":{\"state\":{\"required\":false}},\"MZ\":{\"postcode\":{\"required\":false,\"hidden\":true},\"state\":{\"label\":\"Provincia\"}},\"NL\":{\"postcode\":{\"priority\":65},\"state\":{\"required\":false,\"label\":\"Provincia\"}},\"NG\":{\"postcode\":{\"label\":\"C.A.P.\",\"required\":false,\"hidden\":true},\"state\":{\"label\":\"Provincia\"}},\"NZ\":{\"postcode\":{\"label\":\"C.A.P.\"},\"state\":{\"required\":false,\"label\":\"Regione\"}},\"NO\":{\"postcode\":{\"priority\":65},\"state\":{\"required\":false}},\"NP\":{\"state\":{\"label\":\"Stato \\\/ Regione\"},\"postcode\":{\"required\":false}},\"PL\":{\"postcode\":{\"priority\":65},\"state\":{\"required\":false}},\"PT\":{\"state\":{\"required\":false}},\"RE\":{\"state\":{\"required\":false}},\"RO\":{\"state\":{\"label\":\"Regione\",\"required\":true}},\"RS\":{\"state\":{\"required\":false,\"hidden\":true}},\"SG\":{\"state\":{\"required\":false},\"city\":{\"required\":false}},\"SK\":{\"postcode\":{\"priority\":65},\"state\":{\"required\":false}},\"SI\":{\"postcode\":{\"priority\":65},\"state\":{\"required\":false}},\"SR\":{\"postcode\":{\"required\":false,\"hidden\":true}},\"ES\":{\"postcode\":{\"priority\":65},\"state\":{\"label\":\"Provincia\"}},\"LI\":{\"postcode\":{\"priority\":65},\"state\":{\"label\":\"Municipio\",\"required\":false}},\"LK\":{\"state\":{\"required\":false}},\"LU\":{\"state\":{\"required\":false}},\"MD\":{\"state\":{\"label\":\"Comune\\\/Quartiere\"}},\"SE\":{\"postcode\":{\"priority\":65},\"state\":{\"required\":false}},\"TR\":{\"postcode\":{\"priority\":65},\"state\":{\"label\":\"Provincia\"}},\"UG\":{\"postcode\":{\"required\":false,\"hidden\":true},\"city\":{\"label\":\"Citt\\u00e0\",\"required\":true},\"state\":{\"label\":\"Distretto\",\"required\":true}},\"US\":{\"postcode\":{\"label\":\"C.A.P.\"},\"state\":{\"label\":\"Provincia\"}},\"GB\":{\"postcode\":{\"label\":\"C.A.P.\"},\"state\":{\"label\":\"Regione\",\"required\":false}},\"ST\":{\"postcode\":{\"required\":false,\"hidden\":true},\"state\":{\"label\":\"Distretto\"}},\"VN\":{\"state\":{\"required\":false,\"hidden\":true},\"postcode\":{\"priority\":65,\"required\":false,\"hidden\":false},\"address_2\":{\"required\":false,\"hidden\":true}},\"WS\":{\"postcode\":{\"required\":false,\"hidden\":true}},\"YT\":{\"state\":{\"required\":false}},\"ZA\":{\"state\":{\"label\":\"Provincia\"}},\"ZW\":{\"postcode\":{\"required\":false,\"hidden\":true}},\"default\":{\"first_name\":{\"label\":\"Nome\",\"required\":true,\"class\":[\"form-row-first\"],\"autocomplete\":\"given-name\",\"priority\":10},\"last_name\":{\"label\":\"Cognome\",\"required\":true,\"class\":[\"form-row-last\"],\"autocomplete\":\"family-name\",\"priority\":20},\"company\":{\"label\":\"Nome della societ\\u00e0\",\"class\":[\"form-row-wide\"],\"autocomplete\":\"organization\",\"priority\":30,\"required\":false},\"country\":{\"type\":\"country\",\"label\":\"Stato\",\"required\":true,\"class\":[\"form-row-wide\",\"address-field\",\"update_totals_on_change\"],\"autocomplete\":\"country\",\"priority\":40},\"address_1\":{\"label\":\"Via e numero\",\"placeholder\":\"Via\\\/Piazza e Numero Civico\",\"required\":true,\"class\":[\"form-row-wide\",\"address-field\"],\"autocomplete\":\"address-line1\",\"priority\":50},\"address_2\":{\"placeholder\":\"Appartamento, suite, unit\\u00e0, etc. (opzionale)\",\"class\":[\"form-row-wide\",\"address-field\"],\"autocomplete\":\"address-line2\",\"priority\":60,\"required\":false},\"city\":{\"label\":\"Citt\\u00e0\",\"required\":true,\"class\":[\"form-row-wide\",\"address-field\"],\"autocomplete\":\"address-level2\",\"priority\":70},\"state\":{\"type\":\"state\",\"label\":\"Provincia\",\"required\":true,\"class\":[\"form-row-wide\",\"address-field\"],\"validate\":[\"state\"],\"autocomplete\":\"address-level1\",\"priority\":80},\"postcode\":{\"label\":\"C.A.P.\",\"required\":true,\"class\":[\"form-row-wide\",\"address-field\"],\"validate\":[\"postcode\"],\"autocomplete\":\"postal-code\",\"priority\":90}}}","locale_fields":"{\"address_1\":\"#billing_address_1_field, #shipping_address_1_field\",\"address_2\":\"#billing_address_2_field, #shipping_address_2_field\",\"state\":\"#billing_state_field, #shipping_state_field, #calc_shipping_state_field\",\"postcode\":\"#billing_postcode_field, #shipping_postcode_field, #calc_shipping_postcode_field\",\"city\":\"#billing_city_field, #shipping_city_field, #calc_shipping_city_field\"}","i18n_required_text":"obbligatorio","i18n_optional_text":"opzionale"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/plugins/woocommerce/assets/js/frontend/address-i18n.min.js?ver=3.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","update_shipping_method_nonce":"37f2a08b25","apply_coupon_nonce":"ecab71e53f","remove_coupon_nonce":"67e048db9d"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/plugins/woocommerce/assets/js/frontend/cart.min.js?ver=3.8.1'></script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js?ver=1.0.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_4a4a8bed7841830917ef89acc8ba3d92","fragment_name":"wc_fragments_4a4a8bed7841830917ef89acc8ba3d92","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.8.1'></script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/themes/polestar/js/jquery.fitvids.min.js?ver=1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var polestar = {"collapse":"768","logoScale":"0.775"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/themes/polestar/js/jquery.theme.min.js?ver=1.3.10'></script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/themes/polestar/js/skip-link-focus-fix.min.js?ver=1.3.10'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var polestar_data = {"chevron_down":"<svg version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" width=\"10\" height=\"10\" viewBox=\"0 0 32 32\"><path d=\"M30.054 14.429l-13.25 13.232q-0.339 0.339-0.804 0.339t-0.804-0.339l-13.25-13.232q-0.339-0.339-0.339-0.813t0.339-0.813l2.964-2.946q0.339-0.339 0.804-0.339t0.804 0.339l9.482 9.482 9.482-9.482q0.339-0.339 0.804-0.339t0.804 0.339l2.964 2.946q0.339 0.339 0.339 0.813t-0.339 0.813z\"><\/path><\/svg>","ajaxurl":"https:\/\/tortaprint.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/themes/polestar/woocommerce/js/jquery.woocommerce.min.js?ver=1.3.10'></script>
+<script type='text/javascript' src='https://tortaprint.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://tortaprint.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pum_vars = {"version":"1.9.1","ajaxurl":"https:\/\/tortaprint.com\/wp-admin\/admin-ajax.php","restapi":"https:\/\/tortaprint.com\/wp-json\/pum\/v1","rest_nonce":null,"default_theme":"22163","debug_mode":"","disable_tracking":"","home_url":"\/","message_position":"top","core_sub_forms_enabled":"1","popups":[]};
+var ajaxurl = "https:\/\/tortaprint.com\/wp-admin\/admin-ajax.php";
+var pum_sub_vars = {"ajaxurl":"https:\/\/tortaprint.com\/wp-admin\/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-22169":{"disable_on_mobile":false,"disable_on_tablet":false,"custom_height_auto":false,"scrollable_content":false,"position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"close_on_form_submission":false,"close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_id":"22163","size":"medium","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height":"380px","animation_type":"fade","animation_speed":"350","animation_origin":"center top","location":"center top","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","zindex":"1999999999","close_button_delay":"0","triggers":[],"cookies":[],"theme_slug":"tema-predefinito","id":22169,"slug":"shop-chiuso"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//tortaprint.com/wp-content/uploads/pum/pum-site-scripts.js?defer&#038;generated=1583918339&#038;ver=1.9.1'></script>
+<script type='text/javascript' src='https://tortaprint.com/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var chaty_settings = {"object_settings":{"isPRO":0,"position":"right","social":[{"val":"393485286690","default_icon":"<svg class=\"ico_d\" width=\"39\" height=\"39\" viewBox=\"0 0 39 39\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" style=\"transform: rotate(0deg);\"><circle class=\"color-element\" cx=\"19.4395\" cy=\"19.4395\" r=\"19.4395\" fill=\"#49E670\"\/><path d=\"M12.9821 10.1115C12.7029 10.7767 11.5862 11.442 10.7486 11.575C10.1902 11.7081 9.35269 11.8411 6.84003 10.7767C3.48981 9.44628 1.39593 6.25317 1.25634 6.12012C1.11674 5.85403 2.13001e-06 4.39053 2.13001e-06 2.92702C2.13001e-06 1.46351 0.83755 0.665231 1.11673 0.399139C1.39592 0.133046 1.8147 1.01506e-06 2.23348 1.01506e-06C2.37307 1.01506e-06 2.51267 1.01506e-06 2.65226 1.01506e-06C2.93144 1.01506e-06 3.21063 -2.02219e-06 3.35022 0.532183C3.62941 1.19741 4.32736 2.66092 4.32736 2.79397C4.46696 2.92702 4.46696 3.19311 4.32736 3.32616C4.18777 3.59225 4.18777 3.59224 3.90858 3.85834C3.76899 3.99138 3.6294 4.12443 3.48981 4.39052C3.35022 4.52357 3.21063 4.78966 3.35022 5.05576C3.48981 5.32185 4.18777 6.38622 5.16491 7.18449C6.42125 8.24886 7.39839 8.51496 7.81717 8.78105C8.09636 8.91409 8.37554 8.9141 8.65472 8.648C8.93391 8.38191 9.21309 7.98277 9.49228 7.58363C9.77146 7.31754 10.0507 7.1845 10.3298 7.31754C10.609 7.45059 12.2841 8.11582 12.5633 8.38191C12.8425 8.51496 13.1217 8.648 13.1217 8.78105C13.1217 8.78105 13.1217 9.44628 12.9821 10.1115Z\" transform=\"translate(12.9597 12.9597)\" fill=\"#FAFAFA\"\/><path d=\"M0.196998 23.295L0.131434 23.4862L0.323216 23.4223L5.52771 21.6875C7.4273 22.8471 9.47325 23.4274 11.6637 23.4274C18.134 23.4274 23.4274 18.134 23.4274 11.6637C23.4274 5.19344 18.134 -0.1 11.6637 -0.1C5.19344 -0.1 -0.1 5.19344 -0.1 11.6637C-0.1 13.9996 0.624492 16.3352 1.93021 18.2398L0.196998 23.295ZM5.87658 19.8847L5.84025 19.8665L5.80154 19.8788L2.78138 20.8398L3.73978 17.9646L3.75932 17.906L3.71562 17.8623L3.43104 17.5777C2.27704 15.8437 1.55796 13.8245 1.55796 11.6637C1.55796 6.03288 6.03288 1.55796 11.6637 1.55796C17.2945 1.55796 21.7695 6.03288 21.7695 11.6637C21.7695 17.2945 17.2945 21.7695 11.6637 21.7695C9.64222 21.7695 7.76778 21.1921 6.18227 20.039L6.17557 20.0342L6.16817 20.0305L5.87658 19.8847Z\" transform=\"translate(7.7758 7.77582)\" fill=\"white\" stroke=\"white\" stroke-width=\"0.2\"\/><\/svg>","bg_color":"","title":"Whatsapp","img_url":"","social_channel":"whatsapp","href_url":"https:\/\/web.whatsapp.com\/send?phone=393485286690","desktop_target":"_blank","mobile_target":"","qr_code_image":"","channel":"Whatsapp","is_mobile":1,"is_desktop":1,"mobile_url":"https:\/\/wa.me\/393485286690","has_font":0},{"val":"https:\/\/m.me\/ilbellodellefeste","default_icon":"<svg class=\"ico_d\" width=\"39\" height=\"39\" viewBox=\"0 0 39 39\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" style=\"transform: rotate(0deg);\"><circle class=\"color-element\" cx=\"19.4395\" cy=\"19.4395\" r=\"19.4395\" fill=\"#1E88E5\"\/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M0 9.63934C0 4.29861 4.68939 0 10.4209 0C16.1524 0 20.8418 4.29861 20.8418 9.63934C20.8418 14.98 16.1524 19.2787 10.4209 19.2787C9.37878 19.2787 8.33673 19.1484 7.42487 18.8879L3.90784 20.8418V17.1945C1.56311 15.3708 0 12.6353 0 9.63934ZM8.85779 10.1604L11.463 13.0261L17.1945 6.90384L12.1143 9.76959L9.37885 6.90384L3.64734 13.0261L8.85779 10.1604Z\" transform=\"translate(9.01854 10.3146)\" fill=\"white\"\/><\/svg>","bg_color":"","title":"Facebook Messenger","img_url":"","social_channel":"facebook_messenger","href_url":"https:\/\/m.me\/ilbellodellefeste","desktop_target":"_blank","mobile_target":"","qr_code_image":"","channel":"Facebook_Messenger","is_mobile":1,"is_desktop":1,"mobile_url":"https:\/\/m.me\/ilbellodellefeste","has_font":0}],"pos_side":"right","bot":"25","side":"25","device":"desktop_active mobile_active","color":"#A886CD","widget_size":"54","widget_type":"chat-base","widget_img":"","cta":"Ciao! Serve aiuto?","link_active":"","active":"true","close_text":"Hide","analytics":0,"save_user_clicks":0,"close_img":"","is_mobile":0,"ajax_url":"https:\/\/tortaprint.com\/wp-admin\/admin-ajax.php","animation_class":"","time_trigger":"no","trigger_time":"0","exit_intent":"no","on_page_scroll":"no","page_scroll":"0","gmt":"","display_conditions":0,"display_rules":[],"display_state":"click","has_close_button":"yes"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/plugins/chaty/js/cht-front-script.js?ver=1319062171'></script>
+<script type='text/javascript' src='https://tortaprint.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/plugins/wc-fields-factory/assets/js/jquery-ui-i18n.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/plugins/wc-fields-factory/assets/js/jquery-ui-timepicker-addon.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/plugins/wc-fields-factory/assets/js/spectrum.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/plugins/wc-fields-factory/assets/js/wcff-client.js?ver=5.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var panelsStyles = {"fullContainer":"body"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tortaprint.com/wp-content/plugins/siteorigin-panels/js/styling-21014.min.js?ver=2.10.14'></script>
+	
+		<!-- Cookie Notice plugin v1.2.51 by Digital Factory https://dfactory.eu/ -->
+		<div id="cookie-notice" role="banner" class="cookie-notice-hidden cookie-revoke-hidden cn-position-bottom" aria-label="Cookie Notice" style="background-color: #444444;"><div class="cookie-notice-container" style="color: #fff;"><span id="cn-notice-text" class="cn-text-container">Utilizziamo i cookie per essere sicuri che tu possa avere la migliore esperienza sul nostro sito. Se continui ad utilizzare questo sito noi assumiamo che tu ne sia felice.</span><span id="cn-notice-buttons" class="cn-buttons-container"><a href="#" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button button">Ok</a><a href="https://tortaprint.com/privacy-policy/" target="_blank" id="cn-more-info" class="cn-more-info cn-button button">Privacy policy</a></span></div>
+			
+		</div>
+		<!-- / Cookie Notice plugin -->
+</body>
+</html>

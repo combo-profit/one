@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+	<!--[if IE 8]>
+		<html xmlns="http://www.w3.org/1999/xhtml" class="ie8" lang="it-IT">
+	<![endif]-->
+	<!--[if !(IE 8) ]><!-->
+		<html xmlns="http://www.w3.org/1999/xhtml" lang="it-IT">
+	<!--<![endif]-->
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Modulo di registrazione &lsaquo; TortaPrint &#8212; WordPress</title>
+	<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='dashicons-css'  href='https://tortaprint.com/wp-includes/css/dashicons.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='buttons-css'  href='https://tortaprint.com/wp-includes/css/buttons.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='forms-css'  href='https://tortaprint.com/wp-admin/css/forms.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='l10n-css'  href='https://tortaprint.com/wp-admin/css/l10n.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='login-css'  href='https://tortaprint.com/wp-admin/css/login.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='anr-login-style-css'  href='https://tortaprint.com/wp-content/plugins/advanced-nocaptcha-recaptcha/assets/css/style.css?ver=5.3.2' type='text/css' media='all' />
+	<meta name='robots' content='noindex,noarchive' />
+	<meta name='referrer' content='strict-origin-when-cross-origin' />
+		<meta name="viewport" content="width=device-width" />
+	<link rel="icon" href="https://tortaprint.com/wp-content/uploads/2019/03/cropped-tortaprint_icon-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://tortaprint.com/wp-content/uploads/2019/03/cropped-tortaprint_icon-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://tortaprint.com/wp-content/uploads/2019/03/cropped-tortaprint_icon-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://tortaprint.com/wp-content/uploads/2019/03/cropped-tortaprint_icon-270x270.jpg" />
+	</head>
+	<body class="login no-js login-action-register wp-core-ui  locale-it-it">
+	<script type="text/javascript">
+		document.body.className = document.body.className.replace('no-js','js');
+	</script>
+		<div id="login">
+		<h1><a href="https://it.wordpress.org/">Powered by WordPress</a></h1>
+	<p class="message register">Registrazione per questo sito</p>
+		<form name="registerform" id="registerform" action="https://tortaprint.com/wp-login.php?action=register" method="post" novalidate="novalidate">
+			<p>
+				<label for="user_login">Nome utente</label>
+				<input type="text" name="user_login" id="user_login" class="input" value="" size="20" autocapitalize="off" />
+			</p>
+			<p>
+				<label for="user_email">Email</label>
+				<input type="email" name="user_email" id="user_email" class="input" value="" size="25" />
+			</p>
+			<div class="anr_captcha_field"><div id="anr_captcha_field_1" class="anr_captcha_field_div"></div></div>			<p id="reg_passmail">
+				La conferma della registrazione ti arriverà per email.			</p>
+			<br class="clear" />
+			<input type="hidden" name="redirect_to" value="" />
+			<p class="submit">
+				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Registrati" />
+			</p>
+		</form>
+
+		<p id="nav">
+			<a href="https://tortaprint.com/wp-login.php">Accedi</a>
+				 | 			<a href="https://tortaprint.com/wp-login.php?action=lostpassword">Password dimenticata?</a>
+		</p>
+				<p id="backtoblog"><a href="https://tortaprint.com/">
+		&larr; Torna a TortaPrint		</a></p>
+		<div class="privacy-policy-page-link"><a class="privacy-policy-link" href="https://tortaprint.com/privacy-policy/">Privacy Policy</a></div>	</div>
+			<script type="text/javascript">
+		try{document.getElementById('user_login').focus();}catch(e){}
+		if(typeof wpOnload=='function')wpOnload();
+		</script>
+					<script type="text/javascript">
+				var anr_onloadCallback = function() {
+					for ( var i = 0; i < document.forms.length; i++ ) {
+						var form = document.forms[i];
+						var captcha_div = form.querySelector( '.anr_captcha_field_div' );
+
+						if ( null === captcha_div )
+							continue;
+						captcha_div.innerHTML = '';
+						( function( form ) {
+							var anr_captcha = grecaptcha.render( captcha_div,{
+								'sitekey' : '6LedR3wUAAAAALpbkKpGhPoAmMP9czgUossaTsxt',
+								'size'  : 'normal',
+								'theme' : 'light'
+							});
+							if ( typeof wc_checkout_params !== 'undefined' ) {
+								jQuery( document.body ).on( 'checkout_error', function(){
+									grecaptcha.reset(anr_captcha);
+								});
+							}
+							if ( typeof wpcf7 !== 'undefined' ) {
+								document.addEventListener( 'wpcf7submit', function() {
+									grecaptcha.reset(anr_captcha);
+								}, false );
+							}
+						})(form);
+					}
+				};
+			</script>
+						<script src="https://www.google.com/recaptcha/api.js?onload=anr_onloadCallback&#038;render=explicit"
+				async defer>
+			</script>
+				<div class="clear"></div>
+	</body>
+	</html>
+	
